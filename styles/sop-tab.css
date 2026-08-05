@@ -1,0 +1,76 @@
+/* === Обёртка === */
+.sop-wrap { padding: 8px; font-size: 13px; }
+
+/* === Шапка === */
+.sop-header {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  padding: 8px 12px; margin-bottom: 10px;
+  background: rgba(0,0,0,.05); border-radius: 6px;
+}
+.sop-block { display: flex; flex-direction: column; }
+.sop-label { font-size: 10px; text-transform: uppercase; opacity: .6; }
+.sop-value { font-weight: 700; font-size: 15px; }
+.sop-dc-value { color: var(--color-text-hyperlink, #4a90d9); font-size: 18px; }
+
+/* === Пул === */
+.sop-pool { margin-bottom: 12px; }
+.sop-pool-row { display: flex; align-items: center; justify-content: space-between; }
+.sop-pool-controls { display: flex; align-items: center; gap: 6px; }
+.sop-pool-input {
+  width: 48px; text-align: center; font-weight: 700; font-size: 16px;
+  border: 1px solid #999; border-radius: 4px; background: #fff;
+}
+.sop-btn {
+  width: 28px; height: 28px; font-size: 16px; cursor: pointer;
+  border: 1px solid #888; border-radius: 4px; background: #f0f0f0;
+}
+.sop-btn:hover { background: #ddd; }
+.sop-pips { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 6px; }
+.sop-pip {
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 1px solid #888; background: transparent;
+}
+.sop-pip.filled { background: var(--color-text-hyperlink, #4a90d9); border-color: #2a6cb8; }
+.sop-note { font-size: 11px; opacity: .7; margin-top: 4px; }
+
+/* === Секции === */
+.sop-section { margin-bottom: 10px; border: 1px solid #ccc; border-radius: 6px; overflow: hidden; }
+.sop-section-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 6px 10px; background: rgba(0,0,0,.04); cursor: pointer; user-select: none;
+}
+.sop-section-header h3 { margin: 0; font-size: 14px; }
+.sop-chevron { transition: transform .2s; }
+.sop-section.collapsed .sop-chevron { transform: rotate(-90deg); }
+.sop-section.collapsed .sop-section-body { display: none; }
+.sop-section-body { padding: 8px 10px; }
+
+/* === Списки === */
+.sop-list { list-style: none; margin: 0; padding: 0; }
+.sop-list li { padding: 3px 0; border-bottom: 1px dotted #ddd; }
+.sop-sphere-name { font-weight: 600; }
+.sop-packages em { font-size: 11px; color: #666; }
+.sop-sphere-talents { font-size: 11px; color: #555; }
+
+/* === Теги (drawbacks / boons / blast) === */
+.sop-tag-list { list-style: none; display: flex; flex-wrap: wrap; gap: 5px; padding: 0; margin: 4px 0; }
+.sop-tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 2px 8px; border-radius: 12px; font-size: 12px;
+  border: 1px solid #bbb; background: #f7f7f7; cursor: default;
+}
+.sop-tag-drawback { border-color: #c0392b; color: #c0392b; }
+.sop-tag-boon     { border-color: #27ae60; color: #27ae60; }
+.sop-tag-blast    { border-color: #e67e22; color: #e67e22; }
+.sop-tag-shape    { border-color: #8e44ad; color: #8e44ad; }
+.sop-tag-variant  { border-color: #2980b9; color: #2980b9; }
+.sop-badge {
+  font-size: 10px; padding: 0 5px; border-radius: 8px;
+  background: rgba(0,0,0,.08); margin-left: 4px;
+}
+.sop-badge-sphere { background: #d5e8d4; }
+.sop-badge-type   { background: #dae8fc; }
+
+/* === Прочее === */
+.sop-empty { opacity: .5; font-style: italic; }
+.sop-sub h4 { margin: 6px 0 2px; font-size: 12px; text-transform: uppercase; opacity: .7; }

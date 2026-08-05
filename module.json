@@ -1,0 +1,64 @@
+{
+  "id": "spheres-of-power",
+  "title": "Spheres of Power",
+  "version": "1.0.0",
+  "description": "Modular magic system for D&D 5e based on Spheres of Power",
+  "authors": [
+    {
+      "name": "Veliod"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": ["scripts/sop.js"],
+  "styles": ["styles/spheres.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    } 
+  ],
+  "packs": [
+    {
+      "name": "sop-magic-talents",
+      "label": "SoP: Magic Talents",
+      "path": "packs/magic-talents",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sop-casting-traditions",
+      "label": "SoP: Casting Traditions",
+      "path": "packs/casting-traditions",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sop-spheres",
+      "label": "SoP: Spheres",
+      "path": "packs/spheres",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  }
+}

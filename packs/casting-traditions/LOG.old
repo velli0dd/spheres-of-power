@@ -1,0 +1,5 @@
+2026/08/04-12:28:07.501 48ec Recovering log #103
+2026/08/04-12:28:07.501 48ec Level-0 table #105: started
+2026/08/04-12:28:07.509 48ec Level-0 table #105: 1879 bytes OK
+2026/08/04-12:28:07.512 48ec Delete type=0 #103
+2026/08/04-12:28:07.512 48ec Delete type=3 #101
