@@ -1,0 +1,64 @@
+{
+  "name": "Молниевый (тип заряда)",
+  "type": "feat",
+  "_id": "P1vtmk5lgwZgWFJ4",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Электрическая энергия пробегает по нервам цели, сводя мышцы судорогой.</em></p><p>Ваш разрушительный заряд причиняет урон электричеством. Вы совершаете с преимуществом все броски атаки в рамках разрушительного заряда, если цель носит металлический доспех. Цели в металлических доспехах также совершают с помехой спасброски от вашего разрушительного заряда. Любое существо, получившее урон, не может совершать реакции до начала своего следующего хода.</p><p><strong>Зов природы (подпитка 0 оч.):</strong> если вы находитесь в области с осадками и ветром силой 1 или выше каждый, вы можете сделать так, чтобы ваш разрушительный заряд не считался магией при воздействии на существ, имеющих бонус против магии, сопротивление или иммунитет к ней.</p><p><strong>Подпитка (1 оч.):</strong> затронутые существа должны преуспеть в спасброске Телосложения, иначе становятся ошеломлёнными до начала вашего следующего хода.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-lightning",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "116",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Погода",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 4400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "lightning",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "weather",
+      "tags": [],
+      "en": "Lightning"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!P1vtmk5lgwZgWFJ4"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "DEJNNfJPtyJsBH88",
+  "name": "Подавляющая мощь",
+  "type": "feat",
+  "_id": "8oGc3ZmuMrxJXhw4",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Существа, находящиеся под действием хотя бы 1 из ваших способностей магических сфер, получают штраф −1 к своим спасброскам против других ваших способностей магических сфер. Этот штраф увеличивается до −2, если они находятся под действием хотя бы 3 из ваших способностей магических сфер.</p>",
+      "chat": ""
+    },
+    "identifier": "OverwhelmingPower",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "boon"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1789167256832,
+    "modifiedTime": 1789167283596,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8oGc3ZmuMrxJXhw4"
+}

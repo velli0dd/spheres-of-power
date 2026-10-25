@@ -1,0 +1,64 @@
+{
+  "name": "Иссушающий (тип заряда)",
+  "type": "feat",
+  "_id": "00DQ84Zs1oygD4uP",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Жизнь утекает из существа, оставляя от цели пустую оболочку.</em></p><p>Ваш разрушительный заряд причиняет урон некротической энергией. Любое существо, получившее урон от заряда, должно преуспеть в спасброске Телосложения, иначе его уровень истощения увеличивается на 1 на количество раундов, равное вашему бонусу мастерства. Этот эффект не складывается сам с собой. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Телосложения.</p><p><strong>Подпитка (2 оч.):</strong> существа, получившие урон от заряда, больше не могут совершить спасбросок, чтобы избежать увеличения уровня истощения.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-draining",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "111",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "draining",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "death",
+      "tags": [],
+      "en": "Draining"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!00DQ84Zs1oygD4uP"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Ползающая рука (нежить)",
+  "type": "feat",
+  "_id": "LqxNuB4YJcWjlBIb",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "GUU0TaXWUwiaDTnC",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Цель:</strong> отрубленная конечность существа</p><p>Используя оживление, вы можете создать ползающую руку. Ползающая рука на два размера меньше существа, которому принадлежала отрубленная конечность. Используйте для неё следующий блок параметров:</p><h3>Ползающая рука</h3><p><em>Нежить, без мировоззрения</em></p><p><strong>Класс Доспеха</strong> равен СЛ вашей сферы</p><p><strong>Хиты</strong> равны четверти исходного максимума хитов цели</p><p><strong>Скорость</strong> все способы перемещения исходного существа, но не выше 20 футов</p><p><strong>СИЛ</strong> 14 (+2) · <strong>ЛОВ</strong> 14 (+2) · <strong>ТЕЛ</strong> 12 (+1) · <strong>ИНТ</strong> 4 (−3) · <strong>МДР</strong> 10 (+0) · <strong>ХАР</strong> 6 (−2)</p><p><strong>Навыки</strong> Скрытность +2 + ваш бонус мастерства</p><p><strong>Иммунитет к урону</strong> ядом</p><p><strong>Иммунитет к состояниям</strong> отравлен</p><p><strong>Чувства</strong> слепое зрение 30 фт. (слепа за пределами этого радиуса), пассивная Внимательность 10</p><p><strong>Языки</strong> понимает языки, на которых говорите вы</p><p><strong>Действия</strong></p><p><strong>Коготь.</strong> <em>Рукопашная атака оружием:</em> +2 + ваш бонус мастерства к попаданию, одна цель. <em>Попадание:</em> 4 (1к4 + 2) рубящего урона.</p><h3>Рой ползающих рук</h3><p><em>Средний рой Крошечной, Маленькой или Средней нежити, без мировоззрения</em></p><p><strong>Класс Доспеха</strong> 12</p><p><strong>Хиты</strong> равны исходному максимуму хитов цели</p><p><strong>Скорость</strong> все способы перемещения исходного существа, но не выше 20 футов</p><p><strong>СИЛ</strong> 14 (+2) · <strong>ЛОВ</strong> 14 (+2) · <strong>ТЕЛ</strong> 12 (+1) · <strong>ИНТ</strong> 4 (−3) · <strong>МДР</strong> 10 (+0) · <strong>ХАР</strong> 6 (−2)</p><p><strong>Навыки</strong> Скрытность +5</p><p><strong>Иммунитет к урону</strong> ядом</p><p><strong>Иммунитет к состояниям</strong> отравлен</p><p><strong>Чувства</strong> слепое зрение 30 фт. (слеп за пределами этого радиуса), пассивная Внимательность 10</p><p><strong>Языки</strong> понимает языки, на которых говорите вы</p><p><strong>Рой.</strong> Рой может занимать пространство другого существа и наоборот, а также может проходить через любое отверстие, достаточное для самой крупной ползающей руки в рое. Рой не может восстанавливать хиты и получать временные хиты.</p><p><strong>Действия</strong></p><p><strong>Коготь.</strong> <em>Рукопашная атака оружием:</em> +4 к попаданию, досягаемость 0 фт., одна цель. <em>Попадание:</em> 10 (2к8 + 2) рубящего урона, или 7 (1к8 + 2) рубящего урона, если у роя осталась половина хитов или меньше.</p>",
+      "chat": ""
+    },
+    "identifier": "death-crawling-claw",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "94",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "crawling-claw",
+      "kind": "undead",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Crawling Claw"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!LqxNuB4YJcWjlBIb"
+}

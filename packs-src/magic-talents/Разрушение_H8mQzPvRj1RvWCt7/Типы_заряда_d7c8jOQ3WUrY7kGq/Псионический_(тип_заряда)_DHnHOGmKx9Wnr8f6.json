@@ -1,0 +1,64 @@
+{
+  "name": "Псионический (тип заряда)",
+  "type": "feat",
+  "_id": "DHnHOGmKx9Wnr8f6",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Поверхностные мысли вырываются из головы цели и на миг вспыхивают в вашем разуме, позволяя предугадать её атаки.</em></p><p>Ваш разрушительный заряд причиняет урон психической энергией. Любое существо, получившее урон от заряда, до конца вашего следующего хода совершает с помехой броски атаки против вас. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Интеллекта.</p><p><strong>Подпитка (1 оч.):</strong> вы также совершаете с преимуществом спасброски от существ, получивших урон от заряда.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-psionic",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "111",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Прорицание",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "psionic",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "divination",
+      "tags": [],
+      "en": "Psionic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!DHnHOGmKx9Wnr8f6"
+}

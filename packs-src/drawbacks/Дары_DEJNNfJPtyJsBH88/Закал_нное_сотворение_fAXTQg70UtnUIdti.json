@@ -1,0 +1,61 @@
+{
+  "folder": "DEJNNfJPtyJsBH88",
+  "name": "Закалённое сотворение",
+  "type": "feat",
+  "_id": "fAXTQg70UtnUIdti",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете использовать Телосложение в качестве своей заклинательной характеристики, если оно выше вашей обычной заклинательной характеристики.</p><p>Заклинатель сфер должен обладать недостатком @UUID[Compendium.spheres-of-power.casting-traditions.Item.sdBiuPhO2fcmg9Rf]{Истощающее сотворение}, чтобы получить этот дар.</p>",
+      "chat": ""
+    },
+    "identifier": "FortifiedCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "boon"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1789164921283,
+    "modifiedTime": 1789164963098,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fAXTQg70UtnUIdti"
+}

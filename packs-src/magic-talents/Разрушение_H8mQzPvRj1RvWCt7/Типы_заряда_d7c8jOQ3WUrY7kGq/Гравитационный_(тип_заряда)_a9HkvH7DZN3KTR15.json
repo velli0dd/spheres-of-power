@@ -1,0 +1,64 @@
+{
+  "name": "Гравитационный (тип заряда)",
+  "type": "feat",
+  "_id": "a9HkvH7DZN3KTR15",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Сгусток плотной энергии окутывает цель и искривляет вокруг неё притяжение, притягивая к ней чужие атаки.</em></p><p>Ваш разрушительный заряд причиняет урон силовым полем. Выберите существо, которому вы причинили урон зарядом. До начала вашего следующего раунда другие существа совершают броски атаки по нему с преимуществом.</p><p><strong>Подпитка (1 оч.):</strong> любое существо, получившее урон от заряда, до конца вашего следующего раунда совершает с помехой спасброски от эффектов сферы Телекинеза.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-gravity",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "115",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Телекинез",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 3300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "gravity",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "telekinesis",
+      "tags": [],
+      "en": "Gravity"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!a9HkvH7DZN3KTR15"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Магическая выучка (оживление)",
+  "type": "feat",
+  "_id": "p7Bsx5qvA5aDmvZB",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Оживляя существо с магическими способностями, выберите одну из следующих особенностей:</p><p><strong>Врождённое колдовство.</strong> Если вы оживляете существо с врождёнными псионическими способностями или врождённым колдовством, ваша нежить получает все эти способности, как если бы оставалась исходным существом.</p><p><strong>Заклинатель.</strong> Если вы оживляете существо, сотворявшее заклинания с помощью ячеек заклинаний, ваша нежить получает все известные или подготовленные им заклинания с уровнем не выше вашего бонуса мастерства и количество ячеек заклинаний, равное половине вашего бонуса мастерства. Этот талант не действует на нежить, оживлённую как рои или отряды.</p><p><strong>Заклинатель сфер.</strong> Если вы оживляете существо, владевшее магическими сферами или талантами, ваша нежить получает часть этих талантов — не больше вашего бонуса мастерства — и количество очков заклинаний, равное вашему бонусу мастерства. Этот талант не действует на нежить, оживлённую как рои или отряды.</p>",
+      "chat": ""
+    },
+    "identifier": "death-spellcaster-training",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "102",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "сфера Смерти (Выучка (оживление))",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "spellcaster-training",
+      "kind": "reanimate",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Spellcaster Training"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!p7Bsx5qvA5aDmvZB"
+}

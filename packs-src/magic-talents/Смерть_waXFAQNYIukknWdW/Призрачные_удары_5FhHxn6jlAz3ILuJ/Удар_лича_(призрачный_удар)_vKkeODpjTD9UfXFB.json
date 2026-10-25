@@ -1,0 +1,64 @@
+{
+  "name": "Удар лича (призрачный удар)",
+  "type": "feat",
+  "_id": "vKkeODpjTD9UfXFB",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "5FhHxn6jlAz3ILuJ",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Телосложение</p><p><strong>Призрачный удар (2 оч.):</strong> вы можете нанести призрачный удар, который при проваленном спасброске Телосложения парализует цель на 1 раунд. Существо, преуспевшее в спасброске, получает иммунитет к этому вашему эффекту до окончания вашего продолжительного отдыха. Любой, кто парализован ударом лича, кажется мёртвым, однако успешная проверка Мудрости (Внимательность) СЛ 20 или Мудрости (Медицина) СЛ 15 показывает, что жертва всё ещё жива. Длительность паралича увеличивается на 1 раунд на 5-м (2 раунда), 11-м (3 раунда) и 17-м (4 раунда) уровнях.</p>",
+      "chat": ""
+    },
+    "identifier": "death-lich-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "92",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "lich-strike",
+      "kind": "ghost-strike",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Lich Strike"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!vKkeODpjTD9UfXFB"
+}

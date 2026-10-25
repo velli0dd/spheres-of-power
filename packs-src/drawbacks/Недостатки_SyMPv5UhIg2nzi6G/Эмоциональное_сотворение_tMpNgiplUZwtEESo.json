@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Эмоциональное сотворение",
+  "type": "feat",
+  "_id": "tMpNgiplUZwtEESo",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия требует определенного эмоционального состояния для использования. Когда вы находитесь под действием состояний <strong>очарован</strong> или <strong>испуган</strong>, либо других эффектов, приводящих к повышенному эмоциональному состоянию (таких как способность <strong>враждебность (чары)</strong> сферы Разума или заклинание <em><strong>ярость</strong></em>), вы не способны творить эффекты магических сфер или концентрироваться на них.</p>",
+      "chat": ""
+    },
+    "identifier": "EmotionalCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786319403599,
+    "modifiedTime": 1789077608083,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tMpNgiplUZwtEESo"
+}

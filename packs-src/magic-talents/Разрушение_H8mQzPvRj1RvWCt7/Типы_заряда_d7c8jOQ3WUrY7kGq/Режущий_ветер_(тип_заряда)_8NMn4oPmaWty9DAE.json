@@ -1,0 +1,66 @@
+{
+  "name": "Режущий ветер (тип заряда)",
+  "type": "feat",
+  "_id": "8NMn4oPmaWty9DAE",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Острые, как бритва, ветра срезают защиту со всего на своём пути.</em></p><p>Ваш разрушительный заряд причиняет рубящий урон. Любое существо, получившее урон от заряда, получает штраф −1 к КД до конца вашего следующего раунда. Несколько таких штрафов складываются. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Телосложения.</p><p><strong>Зов природы (подпитка 0 оч.):</strong> если в пределах дистанции вашего разрушительного заряда есть куб воздуха с ребром 5 футов (или равный ему объём), вы можете сделать так, чтобы ваш разрушительный заряд не считался магией при воздействии на существ, имеющих бонус против магии, сопротивление или иммунитет к ней. Для применения этой подпитки вы можете в рамках сотворения использовать подпитку таланта «Сотворение природы» сферы Природы.</p><p><strong>Подпитка (1 оч.):</strong> штраф к КД длится 1 минуту.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-razor-wind",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "114",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Природы (геомантия воздуха) или со сферой Погоды",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "razor-wind",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "nature",
+      "tags": [
+        "геомантия воздуха"
+      ],
+      "en": "Razor Wind"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!8NMn4oPmaWty9DAE"
+}

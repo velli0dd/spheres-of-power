@@ -1,0 +1,64 @@
+{
+  "name": "Живучесть (оживление)",
+  "type": "feat",
+  "_id": "Ex6ZQcPigZmhcqB8",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете подпитывать оживляемую нежить, давая ей особенности и способности, позволяющие исцелять себя.</p><p><strong>Подпитка (1 оч.):</strong> <em>Поглощение жизни.</em> Бонусным действием ваша нежить может выбрать целью существо в пределах досягаемости, у которого 0 хитов, но которое ещё живо. Цель должна преуспеть в спасброске Телосложения, иначе умирает. Если цель умирает, нежить восстанавливает 2к6 хитов. Количество восстанавливаемых хитов увеличивается на 1к6 на 11-м (3к6) и 17-м (4к6) уровнях.</p><p><strong>Подпитка (2 оч.):</strong> <em>Регенерация.</em> Выберите вид урона, кроме излучения, к которому у вашей нежити нет сопротивления или иммунитета. Нежить восстанавливает 5 хитов в начале своего хода, если у неё есть хотя бы 1 хит. Если нежить получает урон излучением или урон выбранного вида, эта особенность не действует в начале следующего хода нежити. Регенерация увеличивается на 5 хитов на 11-м (10 хитов) и 17-м (15 хитов) уровнях.</p>",
+      "chat": ""
+    },
+    "identifier": "death-vigor",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "104",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "сфера Смерти, 5-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "vigor",
+      "kind": "reanimate",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Vigor"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!Ex6ZQcPigZmhcqB8"
+}

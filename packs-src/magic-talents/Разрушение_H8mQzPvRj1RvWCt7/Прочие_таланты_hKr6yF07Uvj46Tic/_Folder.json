@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": "H8mQzPvRj1RvWCt7",
+  "name": "Прочие таланты",
+  "color": null,
+  "sorting": "a",
+  "_id": "hKr6yF07Uvj46Tic",
+  "description": "",
+  "sort": 900000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!hKr6yF07Uvj46Tic"
+}

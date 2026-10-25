@@ -1,0 +1,64 @@
+{
+  "name": "Катастрофа (форма заряда)",
+  "type": "feat",
+  "_id": "gYzESKwtF5CNhVTT",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rCc5u6pDPDbiXCap",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (1 оч.):</strong> при использовании формы заряда @UUID[Compendium.spheres-of-power.magic-talents.Item.Av2QLfneI8gvPpiT]{Ваяние (форма заряда)} линия становится длиной 500 футов, конус — длиной 90 футов, либо вы поражаете всё в пределах 30 футов от себя.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-calamity",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "сфера Разрушения (Ваяние), 11-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "calamity",
+      "kind": "blast-shape",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Calamity"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!gYzESKwtF5CNhVTT"
+}

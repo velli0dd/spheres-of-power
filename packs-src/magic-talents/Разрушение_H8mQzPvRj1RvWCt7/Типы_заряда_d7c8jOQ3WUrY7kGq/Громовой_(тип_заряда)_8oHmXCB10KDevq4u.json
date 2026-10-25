@@ -1,0 +1,64 @@
+{
+  "name": "Громовой (тип заряда)",
+  "type": "feat",
+  "_id": "8oHmXCB10KDevq4u",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Оглушительный раскат грома звенит в ушах цели, лишая её слуха.</em></p><p>Ваш разрушительный заряд причиняет урон звуком. Любое существо, получившее урон от заряда, должно преуспеть в спасброске Телосложения, иначе становится оглохшим на 1 минуту. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Телосложения.</p><p><strong>Зов природы (подпитка 0 оч.):</strong> если вы находитесь в области с ветром, а также засушливостью или осадками силой 1 или выше каждый, вы можете сделать так, чтобы ваш разрушительный заряд не считался магией при воздействии на существ, имеющих бонус против магии, сопротивление или иммунитет к ней.</p><p><strong>Подпитка (1 оч.):</strong> существа, проваливающие спасбросок, вместо этого становятся ошеломлёнными до начала вашего следующего хода.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-thunder",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "117",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Погода",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 4600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "thunder",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "weather",
+      "tags": [],
+      "en": "Thunder"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!8oHmXCB10KDevq4u"
+}

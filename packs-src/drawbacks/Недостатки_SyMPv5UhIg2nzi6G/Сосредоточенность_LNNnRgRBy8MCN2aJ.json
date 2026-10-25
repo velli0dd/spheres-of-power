@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Сосредоточенность",
+  "type": "feat",
+  "_id": "LNNnRgRBy8MCN2aJ",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия требует от вас сосредоточенности, которой не всегда легко достичь. Обычно вы сфокусированы, но теряете сосредоточенность каждый раз, когда получаете состояния <strong>очарован</strong>, <strong>испуган</strong>, <strong>недееспособен</strong> или <strong>ошеломлён</strong>, получаете критическое попадание или проваливаете спасбросок для поддержания концентрации. Использование магии без сосредоточенности требует совершения спасброска заклинательной характеристики с СЛ 10 + удвоенное количество потраченных очков заклинаний для сотворения желаемого эффекта. Провал означает, что действия и очки заклинаний потрачены впустую. Если сосредоточенность утеряна, заклинатель сфер может вернуть её, совершив короткую медитацию в качестве действия, что может вызвать провоцированные атаки от враждебных существ.</p><p>Вы не можете иметь одновременно этот недостаток и недостаток <em>@UUID[Compendium.spheres-of-power.casting-traditions.Item.tMpNgiplUZwtEESo]{Эмоциональное сотворение}</em>.</p>",
+      "chat": ""
+    },
+    "identifier": "MentalFocus",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786320708945,
+    "modifiedTime": 1789077507150,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LNNnRgRBy8MCN2aJ"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Живительный (тип заряда)",
+  "type": "feat",
+  "_id": "IghjAPe3EnOpHPSg",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Целительная энергия стягивается к вам, а энергия излучения обжигает ваших врагов.</em></p><p>Ваш разрушительный заряд причиняет урон излучением. Каждый раз, когда вы причиняете зарядом урон существам, вы получаете временные хиты, равные количеству брошенных костей урона; они сохраняются до начала вашего следующего хода.</p><p><strong>Подпитка (1 оч.):</strong> временные хиты сохраняются 1 минуту.</p><p><strong>Подпитка (1 оч.):</strong> вместо получения временных хитов вы восстанавливаете хиты.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-invigorating",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "112",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Жизнь",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "invigorating",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "life",
+      "tags": [],
+      "en": "Invigorating"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!IghjAPe3EnOpHPSg"
+}

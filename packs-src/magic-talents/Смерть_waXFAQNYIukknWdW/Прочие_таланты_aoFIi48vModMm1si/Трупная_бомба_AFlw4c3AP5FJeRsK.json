@@ -1,0 +1,64 @@
+{
+  "name": "Трупная бомба",
+  "type": "feat",
+  "_id": "AFlw4c3AP5FJeRsK",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "aoFIi48vModMm1si",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете нанести любой свой призрачный удар по трупу, который можно оживить как скелета или зомби, либо по телесной нежити под вашим контролем. Цель взрывается в радиусе 20 футов, и все существа в этой области подвергаются действию выбранного призрачного удара; если призрачный удар не предусматривает спасброска, существа в области могут совершить спасбросок Ловкости, чтобы избежать его эффектов. Труп или нежить рассыпается и уничтожается; его нельзя оживить или выбрать целью другой трупной бомбы.</p>",
+      "chat": ""
+    },
+    "identifier": "death-corpse-bomb",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "96",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "corpse-bomb",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Corpse Bomb"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!AFlw4c3AP5FJeRsK"
+}

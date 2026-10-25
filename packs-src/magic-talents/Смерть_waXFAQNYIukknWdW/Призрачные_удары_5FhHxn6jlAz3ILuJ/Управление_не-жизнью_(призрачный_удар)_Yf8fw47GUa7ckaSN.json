@@ -1,0 +1,64 @@
+{
+  "name": "Управление не-жизнью (призрачный удар)",
+  "type": "feat",
+  "_id": "Yf8fw47GUa7ckaSN",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "5FhHxn6jlAz3ILuJ",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Мудрость</p><p><strong>Призрачный удар (0 оч.):</strong> вы можете нанести призрачный удар, ранящий нежить: он причиняет 1к12 урона некротической энергией, урон увеличивается на 1к12 на 5-м (2к12), 11-м (3к12) и 17-м (4к12) уровнях. Этот урон игнорирует любое сопротивление и иммунитет к урону некротической энергией у существ вида нежить. Цели могут избежать урона успешным спасброском Мудрости, но если итоговая стоимость вашего призрачного удара составляет 1 оч. или больше, успешный спасбросок вместо этого уменьшает урон вдвое.</p><p><strong>Подпитка (1 оч.):</strong> вместо этого вы лечите нежить на это количество хитов.</p>",
+      "chat": ""
+    },
+    "identifier": "death-manipulate-undeath",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "92",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "manipulate-undeath",
+      "kind": "ghost-strike",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Manipulate Undeath"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!Yf8fw47GUa7ckaSN"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Ослабляющий (тип заряда)",
+  "type": "feat",
+  "_id": "LcHDebBGEfLuYsLK",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Стойкость существа слабеет, и оно становится уязвимее для атак ваших союзников.</em></p><p>Ваш разрушительный заряд причиняет урон силовым полем. До начала вашего следующего хода все атаки по существу, получившему урон от заряда, считаются магическими.</p><p><strong>Подпитка (1 оч.):</strong> существа, получившие урон, должны преуспеть в спасброске Телосложения, иначе не получают преимуществ от регенерации до начала вашего следующего хода.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-degrading",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "111",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Усиление",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "degrading",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "enhancement",
+      "tags": [],
+      "en": "Degrading"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!LcHDebBGEfLuYsLK"
+}

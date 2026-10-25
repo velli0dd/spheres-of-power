@@ -1,0 +1,64 @@
+{
+  "name": "Тёмное жертвоприношение",
+  "type": "feat",
+  "_id": "8ptO2EjeIl0Q1EHC",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "aoFIi48vModMm1si",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Время сотворения:</strong> 1 реакция</p><p><strong>Дистанция:</strong> 30 футов</p><p><strong>Длительность:</strong> мгновенная</p><p><strong>Цель:</strong> 1 существо-нежить под вашим контролем</p><p><strong>Стоимость:</strong> 1 оч.</p><p>Когда вы должны получить урон, который опустил бы ваши хиты до 0, вы можете пожертвовать существом-нежитью под вашим контролем в пределах дистанции (или в пределах дистанции таланта @UUID[Compendium.spheres-of-power.magic-talents.Item.13eHgPFVu5E2wZr0]{Присутствие повелителя}, если она больше), мгновенно уничтожив его; получаемый вами урон уменьшается на текущие хиты принесённой в жертву нежити (до минимума 0).</p>",
+      "chat": ""
+    },
+    "identifier": "death-dark-sacrifice",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "97",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "dark-sacrifice",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Dark Sacrifice"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!8ptO2EjeIl0Q1EHC"
+}

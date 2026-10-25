@@ -1,0 +1,64 @@
+{
+  "name": "Пробивающий заряд",
+  "type": "feat",
+  "_id": "Reb0nWWwa8oYQIZh",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rCc5u6pDPDbiXCap",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (1 оч.):</strong> ваш разрушительный заряд игнорирует сопротивление его виду урона у затронутых существ и предметов. Существа и предметы с иммунитетом к этому виду урона вместо этого считаются имеющими сопротивление.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-penetrating-blast",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "сфера Разрушения, 5-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "penetrating-blast",
+      "kind": null,
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Penetrating Blast"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!Reb0nWWwa8oYQIZh"
+}

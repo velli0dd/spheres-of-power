@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Длительное сотворение",
+  "type": "feat",
+  "_id": "KbRD6DwRa9W6jXBO",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Использование вашей магии занимает больше времени, чем обычно. При использовании способности магической сферы, требующей действия, вы не можете перемещаться до или после её сотворения, а также не можете использовать бонусное действие в этот ход. Эффекты сфер, требующие бонусного действия, вместо этого стоят действия, а эффекты, требующие реакции, расходуют ваше бонусное действие на следующий ход. Время сотворения эффектов с более длительным временем сотворения увеличивается на одну ступень (1 минута становится 10 минутами, 10 минут становятся 1 часом, 1 час становится 1 днём, а время более 1 дня удваивается).</p>",
+      "chat": ""
+    },
+    "identifier": "ExtendedCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786319611465,
+    "modifiedTime": 1789059266743,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KbRD6DwRa9W6jXBO"
+}

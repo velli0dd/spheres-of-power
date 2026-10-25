@@ -1,0 +1,64 @@
+{
+  "name": "Выучка (оживление)",
+  "type": "feat",
+  "_id": "NutgFaMAwWNvNjAl",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "OepTyJlCvrtAofEY",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Если вы оживляете существо с уровнями класса, ваша нежить получает все немагические умения этих уровней. Этот талант не действует на оживляемые вами рои и отряды.</p>",
+      "chat": ""
+    },
+    "identifier": "death-training",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "94",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "training",
+      "kind": "reanimate",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Trained"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!NutgFaMAwWNvNjAl"
+}

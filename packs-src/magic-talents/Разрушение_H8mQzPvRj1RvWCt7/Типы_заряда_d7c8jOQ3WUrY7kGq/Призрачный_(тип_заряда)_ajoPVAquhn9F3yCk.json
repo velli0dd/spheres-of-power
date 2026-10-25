@@ -1,0 +1,64 @@
+{
+  "name": "Призрачный (тип заряда)",
+  "type": "feat",
+  "_id": "ajoPVAquhn9F3yCk",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Потусторонние призванные создания на миг обретают плоть, чтобы ударить с фланга, и тут же растворяются в эфире.</em></p><p>Ваш разрушительный заряд причиняет рубящий урон. До начала вашего следующего хода считается, что рядом с любым существом, получившим урон от заряда (в пределах 5 футов), всегда находится его дееспособный враг.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-spectral",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "111",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Призыв",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "spectral",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "conjuration",
+      "tags": [],
+      "en": "Spectral"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!ajoPVAquhn9F3yCk"
+}

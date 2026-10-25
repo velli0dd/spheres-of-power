@@ -1,0 +1,64 @@
+{
+  "name": "Чудовищный (оживление)",
+  "type": "feat",
+  "_id": "1wvwsxYywFR1WyDI",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "OepTyJlCvrtAofEY",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Выберите талант (черта) или (генотип) сферы Изменения. Каждый раз, используя оживление, вы можете применить к нежити количество черт из этого таланта, равное половине вашего бонуса мастерства. Черты, имеющие стоимость в очках заклинаний, оплачиваются как подпитка вашего оживления. Вы можете взять этот талант несколько раз, каждый раз выбирая ещё один талант (черта) или (генотип), черты из которого можно применять.</p>",
+      "chat": ""
+    },
+    "identifier": "death-monstrous",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "93",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": true,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "monstrous",
+      "kind": "reanimate",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Monstrous"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!1wvwsxYywFR1WyDI"
+}

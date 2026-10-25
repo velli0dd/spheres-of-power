@@ -1,0 +1,86 @@
+{
+  "folder": "DEJNNfJPtyJsBH88",
+  "name": "Одарённость",
+  "type": "feat",
+  "_id": "7U99le05EfNB79tq",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {
+      "Avf7hUEdvu1OJlBG": {
+        "type": "Trait",
+        "_id": "Avf7hUEdvu1OJlBG",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*",
+                "tool:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "upgrade"
+        },
+        "flags": {},
+        "level": 0,
+        "hint": "",
+        "title": ""
+      }
+    },
+    "description": {
+      "value": "<p>Вы обладаете виртуозным мастерством в ремесле, связанном с вашей магией. Вы получаете владение навыком или инструментом, связанным с вашим недостатком @UUID[Compendium.spheres-of-power.casting-traditions.Item.rWELWGw2vqiFbCJD]{Волшебный навык}. Если вы уже владеете этим навыком, ваш бонус мастерства удваивается для любой проверки, использующей выбранное владение. Этот эффект не суммируется с эффектом Компетентности (или эффектами другимих аналогичных умений).</p><p>Заклинатель сфер должен обладать недостатком @UUID[Compendium.spheres-of-power.casting-traditions.Item.rWELWGw2vqiFbCJD]{Волшебный навык}, чтобы получить этот дар.</p>",
+      "chat": ""
+    },
+    "identifier": "Aptitude",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [
+        "SkilledCasting"
+      ],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "boon"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786404833072,
+    "modifiedTime": 1789164843282,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7U99le05EfNB79tq"
+}

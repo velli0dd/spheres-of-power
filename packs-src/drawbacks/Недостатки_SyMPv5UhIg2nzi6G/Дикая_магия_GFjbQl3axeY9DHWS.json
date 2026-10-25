@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Дикая магия",
+  "type": "feat",
+  "_id": "GFjbQl3axeY9DHWS",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваш базовый шанс дикой магии составляет 10%. Этот шанс дикой магии не суммируется с шансом дикой магии из других источников.</p><p>См. Правила: @UUID[Compendium.world.pravila.JournalEntry.XhQPp5AbjZhp1SXY]{Дикая магия}</p>",
+      "chat": ""
+    },
+    "identifier": "WildMagic",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ACuv6oCMWkCaI8o8": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786195444513,
+    "modifiedTime": 1789059211911,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GFjbQl3axeY9DHWS"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Подготовленный заклинатель",
+  "type": "feat",
+  "_id": "8ukcHWaSZZTnWk2n",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы должны подготавливать свою магию заранее, чтобы использовать её. Завершив продолжительный отдых и восстановив очки заклинаний, вы должны распределить каждое из ваших очков заклинаний по имеющимся у вас сферам. Вы не можете потратить за день больше очков заклинаний в конкретной сфере, чем вы распределили в эту сферу. Вы можете распределять очки заклинаний в Универсальную сферу, даже если вы ею не обладаете, и черпать из неё очки для использования умений класса и черт, требующих очков заклинаний. Если ваши очки заклинаний истощаются или теряются иным образом, кроме сотворения, вы можете выбрать, из какой сферы их списать.</p>",
+      "chat": ""
+    },
+    "identifier": "PreparedCaster",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786321462992,
+    "modifiedTime": 1789077739265,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8ukcHWaSZZTnWk2n"
+}

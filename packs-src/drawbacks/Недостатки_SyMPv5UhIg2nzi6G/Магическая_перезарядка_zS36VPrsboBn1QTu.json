@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Магическая перезарядка",
+  "type": "feat",
+  "_id": "zS36VPrsboBn1QTu",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия часто требует времени на перезарядку между сотворениями (Перезарядка 6). Когда вы тратите 1 или более очков заклинаний на способность, вы не можете тратить дополнительные очки заклинаний, пока ваша магия не перезарядится.</p><p>В начале каждого своего хода бросьте d6. Если выпавшее значение совпадает с одним из чисел в значении перезарядки, вы снова получаете возможность использовать очки заклинаний. Ваша магия также перезаряжается, когда вы завершаете короткий или продолжительный отдых.</p><p>Значение вашей перезарядки улучшается на 5-м уровне (Перезарядка 5–6), 11-м уровне (Перезарядка 4–6) и 17-м уровне (Перезарядка 3–6).</p><p>Этот недостаток считается за 2 недостатка при определении количества получаемых очков заклинаний.</p>",
+      "chat": ""
+    },
+    "identifier": "ChargeMagic",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786318670422,
+    "modifiedTime": 1789074887616,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zS36VPrsboBn1QTu"
+}

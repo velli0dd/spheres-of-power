@@ -1,0 +1,64 @@
+{
+  "name": "Цепной заряд (форма заряда)",
+  "type": "feat",
+  "_id": "cpGvkxQKqTTHvAxD",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rEDy6fo8J040sOIc",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваш разрушительный заряд дугой устремляется к выбранной вами цели, которую вы видите в пределах дистанции. Цель может избежать урона успешным спасброском Ловкости, но если итоговая стоимость вашего разрушительного заряда составляет 1 оч. или больше, успешный спасбросок вместо этого вдвое уменьшает урон и отменяет дополнительные эффекты, которые (тип заряда) наложил бы на цель.</p><p><strong>Подпитка (1 оч.):</strong> когда цель проваливает спасбросок от вашего разрушительного заряда, вы можете бонусным действием заставить заряд перескочить на другую цель. За раунд заряд может перескочить на количество целей, равное вашему бонусу мастерства. Каждая цель должна находиться в пределах 30 футов от предыдущей и в пределах дистанции вашего разрушительного заряда. Ни одна цель не может быть поражена зарядом больше одного раза. Эта подпитка выбирается, когда первая цель проваливает спасбросок.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-chain-blast",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "118",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "chain-blast",
+      "kind": "blast-shape",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Chain Blast"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!cpGvkxQKqTTHvAxD"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Ледяная хватка",
+  "type": "feat",
+  "_id": "zzFxEzcM7CpHbis6",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "aoFIi48vModMm1si",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (0 оч.):</strong> используя призрачный удар, вы можете вместо собственной атаки поручить нежити под вашим контролем в пределах дистанции нанести его в рамках рукопашной атаки оружием до начала вашего следующего хода. Первая успешная рукопашная атака оружием нежити до начала вашего следующего хода причиняет обычный урон и вдобавок применяет эффекты призрачного удара.</p><p><strong>Подпитка (1 оч.):</strong> вы можете дать применение этого призрачного удара количеству подконтрольной нежити в пределах дистанции, не превышающему ваш бонус мастерства. В этом раунде несколько существ-нежити не могут поразить одно и то же существо одним и тем же призрачным ударом.</p>",
+      "chat": ""
+    },
+    "identifier": "death-icy-grip",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "97",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "icy-grip",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Icy Grip"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!zzFxEzcM7CpHbis6"
+}

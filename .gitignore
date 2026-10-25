@@ -1,0 +1,6 @@
+# Служебные файлы LevelDB: Foundry переписывает их при каждом открытии компендиума
+packs/*/LOCK
+packs/*/LOG
+packs/*/LOG.old
+
+node_modules/

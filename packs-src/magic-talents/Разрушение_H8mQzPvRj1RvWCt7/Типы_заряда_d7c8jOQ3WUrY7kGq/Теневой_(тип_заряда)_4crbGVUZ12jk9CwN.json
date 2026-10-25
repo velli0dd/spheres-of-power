@@ -1,0 +1,64 @@
+{
+  "name": "Теневой (тип заряда)",
+  "type": "feat",
+  "_id": "4crbGVUZ12jk9CwN",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>В заряд вплетается теневая материя, придающая вашей иллюзии плоть.</em></p><p>Каждый раз, применяя этот талант (тип заряда), выберите вид урона. Ваш разрушительный заряд причиняет урон выбранного вида, но только половину. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Интеллекта.</p><p><strong>Подпитка (1 оч.):</strong> ваш разрушительный заряд причиняет полный урон вместо половины.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-shadow",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "112",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Иллюзия",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "shadow",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "illusion",
+      "tags": [],
+      "en": "Shadow"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!4crbGVUZ12jk9CwN"
+}

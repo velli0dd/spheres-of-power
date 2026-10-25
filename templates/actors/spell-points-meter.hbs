@@ -1,0 +1,24 @@
+<div class="meter-group custom-spell-points">
+    <div class="label roboto-condensed-upper">
+        <span>{{ localize "SOP.SpellPoints" }}</span>
+        {{#if configurable}}
+        <button type="button" class="sop-sp-config" data-tooltip="SOP.SpellPointsConfigure"
+                aria-label="{{ localize "SOP.SpellPointsConfigure" }}">
+            <i class="fa-solid fa-gear"></i>
+        </button>
+        {{/if}}
+    </div>
+    <div class="meter sectioned spell-points">
+        <div class="progress spell-points" role="meter"
+             aria-valuemin="0" aria-valuenow="{{ value }}" aria-valuemax="{{ max }}"
+             style="--bar-percentage: {{ percentage }}%">
+            <div class="label">
+                <span class="value">{{ value }}</span>
+                <span class="separator">&sol;</span>
+                <span class="max">{{ max }}</span>
+            </div>
+            <input type="text" name="system.spheres.spellPoints.value" data-dtype="Number"
+                   data-max="{{ max }}" placeholder="0" value="{{ value }}" hidden>
+        </div>
+    </div>
+</div>

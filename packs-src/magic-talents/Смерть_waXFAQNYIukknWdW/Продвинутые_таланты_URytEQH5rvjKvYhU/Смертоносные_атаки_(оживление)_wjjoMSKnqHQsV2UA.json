@@ -1,0 +1,64 @@
+{
+  "name": "Смертоносные атаки (оживление)",
+  "type": "feat",
+  "_id": "wjjoMSKnqHQsV2UA",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете изменить одну из атак своей нежити, выбранную при использовании оживления:</p><p><strong>Некротическое касание</strong> (требует Укуса, Когтей или Удара). Атака укусом, когтями или ударом причиняет урон некротической энергией.</p><p><strong>Подпитка (2 оч.):</strong> <em>Парализующее касание</em> (требует Когтей). Существа, получившие урон от атаки когтями, должны преуспеть в спасброске Телосложения, иначе становятся парализованными на 1 раунд.</p><p><strong>Подпитка (1 оч.):</strong> <em>Кровавое насыщение</em> (требует Укуса). Нежить восстанавливает количество хитов, равное половине урона, причинённого её атакой укусом.</p><p><strong>Тошнотворное касание</strong> (требует Удара). Существа, получившие урон от атаки ударом, должны преуспеть в спасброске Телосложения, иначе становятся отравленными на 1 минуту.</p>",
+      "chat": ""
+    },
+    "identifier": "death-deadly-attacks",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "98",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "сфера Смерти (Дополнительные атаки (оживление)), 1-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "deadly-attacks",
+      "kind": "reanimate",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Deadly Attacks"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!wjjoMSKnqHQsV2UA"
+}

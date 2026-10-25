@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Болезненная магия",
+  "type": "feat",
+  "_id": "ShnwPOG7smhy7jUg",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия истощает вас тем сильнее, чем больше вы на неё полагаетесь. Каждый раз, когда вы используете магию, вы должны успешно совершить спасбросок Телосложения с СЛ 10 + удвоенное количество потраченных очков заклинаний, иначе вы получаете состояние <strong>отравлен</strong> на 1 раунд. Если вы используете магию, находясь в состоянии <strong>отравлен</strong>, вы должны успешно совершить спасбросок, иначе вы становитесь <strong>недееспособным</strong> на 1 раунд. Состояние <strong>отравлен</strong>, накладываемое этим недостатком, игнорирует любой имеющийся у вас иммунитет к состоянию <strong>отравлен</strong>.</p>",
+      "chat": ""
+    },
+    "identifier": "PainfulMagic",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786321280642,
+    "modifiedTime": 1789059088496,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ShnwPOG7smhy7jUg"
+}

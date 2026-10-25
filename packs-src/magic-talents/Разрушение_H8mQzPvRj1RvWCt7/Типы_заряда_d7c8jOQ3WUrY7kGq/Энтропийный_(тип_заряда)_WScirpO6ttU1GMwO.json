@@ -1,0 +1,64 @@
+{
+  "name": "Энтропийный (тип заряда)",
+  "type": "feat",
+  "_id": "WScirpO6ttU1GMwO",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Существа испытывают на себе боль и немощь старости.</em></p><p>Ваш разрушительный заряд причиняет урон некротической энергией. Любое существо, получившее урон от заряда, должно совершить спасбросок Телосложения, иначе в течение 1 раунда совершает с помехой физические спасброски (Силы, Ловкости, Телосложения). Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Телосложения. Существа, которые явно не страдают от старения, обладают иммунитетом к этому эффекту.</p><p><strong>Подпитка (1 оч.):</strong> существа, проваливающие спасбросок, совершают с помехой все спасброски, а не только физические.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-entropic",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "115",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Время",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 3500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "entropic",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "time",
+      "tags": [],
+      "en": "Entropic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!WScirpO6ttU1GMwO"
+}

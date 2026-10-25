@@ -1,0 +1,64 @@
+{
+  "name": "Ломающий тело (тип заряда)",
+  "type": "feat",
+  "_id": "eoQbHumZVK7VRzD1",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Заряд выворачивает и скручивает тела целей: вывихивает кости, защемляет нервы и рвёт сухожилия.</em></p><p>Ваш разрушительный заряд причиняет дробящий урон. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Силы. Любое существо, получившее урон от заряда, совершает с помехой проверки Силы (Атлетика) и Ловкости (Акробатика) до начала вашего следующего хода.</p><p><strong>Подпитка (1 оч.):</strong> помеха длится 1 минуту. Цель может повторять спасбросок в конце каждого своего хода, оканчивая эффект на себе при успехе.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-form-breaking",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "110",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Изменение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "form-breaking",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "alteration",
+      "tags": [],
+      "en": "Form-Breaking"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!eoQbHumZVK7VRzD1"
+}

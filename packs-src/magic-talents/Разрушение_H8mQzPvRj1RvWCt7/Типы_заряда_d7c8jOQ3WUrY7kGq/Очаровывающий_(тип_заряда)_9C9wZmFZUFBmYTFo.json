@@ -1,0 +1,64 @@
+{
+  "name": "Очаровывающий (тип заряда)",
+  "type": "feat",
+  "_id": "9C9wZmFZUFBmYTFo",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Вторгшаяся психическая энергия наполняет разум и сердце существа силой дружбы.</em></p><p>Ваш разрушительный заряд причиняет урон психической энергией. Любое существо, получившее урон от заряда, должно совершить спасбросок Харизмы, иначе становится очарованным до начала вашего следующего хода. Существо, очарованное этим зарядом, может повторить спасбросок каждый раз, когда получает урон, оканчивая состояние при успехе. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Харизмы.</p><p><strong>Подпитка (1 оч.):</strong> существа, проваливающие спасбросок, вместо этого становятся очарованными на 1 минуту. Цель может повторять спасбросок в конце своего хода, оканчивая эффект на себе при успехе.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-charming",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "113",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Разум",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "charming",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "mind",
+      "tags": [],
+      "en": "Charming"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!9C9wZmFZUFBmYTFo"
+}

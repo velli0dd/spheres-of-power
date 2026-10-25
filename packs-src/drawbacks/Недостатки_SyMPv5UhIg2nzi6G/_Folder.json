@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Недостатки",
+  "color": null,
+  "sorting": "a",
+  "_id": "SyMPv5UhIg2nzi6G",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785649602526,
+    "modifiedTime": 1785649602526,
+    "lastModifiedBy": "ACuv6oCMWkCaI8o8",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!SyMPv5UhIg2nzi6G"
+}

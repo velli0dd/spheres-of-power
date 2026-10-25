@@ -1,0 +1,64 @@
+{
+  "name": "Сдерживающий (тип заряда)",
+  "type": "feat",
+  "_id": "tbyUC5RF4xbINfnm",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Конечности и мышцы существа слабеют, и ему становится трудно двигаться.</em></p><p>Ваш разрушительный заряд причиняет урон некротической энергией. Скорость любого существа, получившего урон от заряда, уменьшается на 10 футов (но не ниже 5 футов) на 1 минуту. Несколько таких штрафов складываются.</p><p><strong>Подпитка (1 оч.):</strong> выберите одну характеристику; существа, получившие урон, должны преуспеть в спасброске Телосложения, иначе в течение 1 минуты совершают с помехой проверки этой характеристики.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-hindering",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "112",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Усиление",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "hindering",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "enhancement",
+      "tags": [],
+      "en": "Hindering"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!tbyUC5RF4xbINfnm"
+}

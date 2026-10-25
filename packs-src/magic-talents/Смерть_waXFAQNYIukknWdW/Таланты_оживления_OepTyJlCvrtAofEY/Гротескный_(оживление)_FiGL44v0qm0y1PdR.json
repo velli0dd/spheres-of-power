@@ -1,0 +1,64 @@
+{
+  "name": "Гротескный (оживление)",
+  "type": "feat",
+  "_id": "FiGL44v0qm0y1PdR",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "OepTyJlCvrtAofEY",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Оживляемая вами нежить получает одну из следующих способностей или особенностей, выбранную при оживлении:</p><p><strong>Желчь.</strong> <em>Дальнобойная атака заклинанием:</em> модификатор Интеллекта, Мудрости или Харизмы + ваш бонус мастерства к попаданию, дистанция 30 фт., одна цель. <em>Попадание:</em> 1к6 урона ядом. Урон ядом увеличивается на 1к6 на 5-м (2к6), 11-м (3к6) и 17-м (4к6) уровнях. У роёв и отрядов урон этой атаки заклинанием не увеличивается и не уменьшается, когда у роя или отряда остаётся половина хитов или меньше.</p><p><strong>Смрад.</strong> Любое существо, начинающее ход в пределах досягаемости нежити, должно преуспеть в спасброске Телосложения, иначе станет отравленным до начала вашего следующего хода. При успешном спасброске существо получает иммунитет к Смраду этой нежити на 24 часа.</p>",
+      "chat": ""
+    },
+    "identifier": "death-grotesque",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "93",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "grotesque",
+      "kind": "reanimate",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Grotesque"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!FiGL44v0qm0y1PdR"
+}

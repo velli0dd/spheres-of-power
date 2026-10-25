@@ -1,0 +1,64 @@
+{
+  "name": "Скелет (нежить)",
+  "type": "feat",
+  "_id": "oQp4X4l9mw0XzUTJ",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "GUU0TaXWUwiaDTnC",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Цель:</strong> кости мёртвого существа</p><p>Используя оживление, вы можете создать скелета, используя следующий блок параметров:</p><h3>Скелет</h3><p><em>Нежить, без мировоззрения</em></p><p><strong>Класс Доспеха</strong> равен СЛ вашей сферы</p><p><strong>Хиты</strong> равны исходному максимуму хитов цели</p><p><strong>Скорость</strong> все способы перемещения исходного существа, но не выше 30 футов</p><p><strong>СИЛ</strong> 16 (+3) · <strong>ЛОВ</strong> 12 (+1) · <strong>ТЕЛ</strong> 14 (+2) · <strong>ИНТ</strong> 4 (−3) · <strong>МДР</strong> 8 (−1) · <strong>ХАР</strong> 6 (−2)</p><p><strong>Уязвимость к урону</strong> дробящий</p><p><strong>Иммунитет к урону</strong> ядом</p><p><strong>Иммунитет к состояниям</strong> истощение, отравлен</p><p><strong>Чувства</strong> тёмное зрение 60 фт., пассивная Внимательность 9</p><p><strong>Языки</strong> понимает языки, на которых говорите вы</p><p><strong>Действия</strong></p><p><strong>Удар.</strong> <em>Рукопашная атака оружием:</em> +3 + ваш бонус мастерства к попаданию, одна цель. <em>Попадание:</em> 7 (1к6 + 3) дробящего урона.</p><h3>Отряд скелетов</h3><p><em>Огромный отряд Большой, Средней или Маленькой нежити, без мировоззрения</em></p><p><strong>Класс Доспеха</strong> 11</p><p><strong>Хиты</strong> равны учетверённому исходному максимуму хитов цели</p><p><strong>Скорость</strong> все способы перемещения исходного существа, но не выше 30 футов</p><p><strong>СИЛ</strong> 16 (+3) · <strong>ЛОВ</strong> 12 (+1) · <strong>ТЕЛ</strong> 14 (+2) · <strong>ИНТ</strong> 4 (−3) · <strong>МДР</strong> 8 (−1) · <strong>ХАР</strong> 6 (−2)</p><p><strong>Уязвимость к урону</strong> дробящий</p><p><strong>Иммунитет к урону</strong> ядом</p><p><strong>Иммунитет к состояниям</strong> истощение, отравлен</p><p><strong>Чувства</strong> тёмное зрение 60 фт., пассивная Внимательность 9</p><p><strong>Языки</strong> понимает языки, на которых говорите вы</p><p><strong>Отряд.</strong> Отряд может занимать пространство другого существа и наоборот, а также может проходить через любое отверстие, достаточное для самой крупной нежити в отряде. Кроме того, отряд совершает с преимуществом проверки и спасброски Силы и любые спасброски от эффектов, нацеленных на одно существо, но с помехой — любые спасброски от эффектов, действующих на область.</p><p><strong>Действия</strong></p><p><strong>Удар.</strong> <em>Рукопашная атака оружием:</em> +6 к попаданию, досягаемость 5 фт., одна цель. <em>Попадание:</em> 13 (2к10 + 3) дробящего урона, или 9 (1к10 + 3) дробящего урона, если у отряда осталась половина хитов или меньше.</p>",
+      "chat": ""
+    },
+    "identifier": "death-skeleton",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "95",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "skeleton",
+      "kind": "undead",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Skeleton"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!oQp4X4l9mw0XzUTJ"
+}

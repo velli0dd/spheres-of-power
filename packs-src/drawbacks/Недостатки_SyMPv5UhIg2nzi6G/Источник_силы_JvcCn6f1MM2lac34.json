@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Источник силы",
+  "type": "feat",
+  "_id": "JvcCn6f1MM2lac34",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы обладаете явной физической особенностью, которая служит источником вашей магической силы. Каждый раз, когда вы используете магию, любое наблюдающее за вами существо чётко понимает, что ваша магия исходит из вашего центра силы.</p><p>Если по вам наносят критическое попадание, ваш центр силы нарушается: вы теряете 1d4 очков заклинаний (если они у вас есть), не можете сотворять заклинания или использовать любые эффекты магических сфер в течение 1 раунда и автоматически теряете концентрацию.</p><p>Существо может целенаправленно атаковать ваш центр силы, решив совершить бросок атаки с помехой; в случае успеха на вас действуют те же эффекты, что и при критическом попадании (при этом дополнительный урон от критического попадания не наносится).</p><p>Вы не можете иметь одновременно этот недостаток и недостаток <strong>Сотворение с фокусировкой</strong>.</p>",
+      "chat": ""
+    },
+    "identifier": "Center-of-Power",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786318433986,
+    "modifiedTime": 1789059332509,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JvcCn6f1MM2lac34"
+}

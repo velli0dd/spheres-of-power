@@ -1,0 +1,145 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Магическая зависимость",
+  "type": "feat",
+  "_id": "RFoxIzkInCOHx4ge",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {
+      "S6gCpn7YEUXaCWqW": {
+        "type": "save",
+        "_id": "S6gCpn7YEUXaCWqW",
+        "img": "",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "6HjFutpQcB1UCR73",
+            "level": {},
+            "onSave": false
+          }
+        ],
+        "flags": {},
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "stationary": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "@spheres.addiction.dc"
+          }
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия вызывает привыкание. Каждый раз, когда вы тратите одно или более очков заклинаний, вы должны совершить спасбросок Телосложения против СЛ вашей зависимости (СЛ вашей зависимости равна 8 + 1 за каждый совершённый ранее бросок; таким образом, СЛ первого броска равна 8, второго — 9, третьего — 10 и так далее). Если вы проваливаете этот спасбросок, вы становитесь манозависимым. Находясь в состоянии манозависимости, каждый раз, когда вы не тратите очко заклинаний в течение последней минуты, вы получаете штраф −1 к вашему бонусу мастерства, пока не потратите очко заклинаний. Если вы уже манозависимы и проваливаете спасбросок при использовании очков заклинаний, штраф к бонусу мастерства увеличивается на 1 (минимальное значение бонуса мастерства — 0).</p><p>Если вы завершаете продолжительный отдых, проведя целые сутки без траты очков заклинаний, вы можете совершить спасбросок Телосложения против СЛ вашей зависимости. В случае успеха СЛ вашей зависимости снижается на 2. Если вы таким образом успешно совершаете 2 спасброска подряд, вы также перестаёте быть манозависимым. Магическую зависимость нельзя излечить с помощью магии, но проверка Мудрости (Медицина) СЛ 15 позволяет получить преимущество на эти спасброски.</p><p>Этот недостаток считается за 2 недостатка при определении количества полученных очков заклинаний или даров.</p>",
+      "chat": ""
+    },
+    "identifier": "AddictiveCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ACuv6oCMWkCaI8o8": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785657693770,
+    "modifiedTime": 1786197892352,
+    "lastModifiedBy": "ACuv6oCMWkCaI8o8",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RFoxIzkInCOHx4ge"
+}

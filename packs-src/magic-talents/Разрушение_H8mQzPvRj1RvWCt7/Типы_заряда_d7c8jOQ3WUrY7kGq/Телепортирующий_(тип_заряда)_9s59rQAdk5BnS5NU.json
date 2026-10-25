@@ -1,0 +1,64 @@
+{
+  "name": "Телепортирующий (тип заряда)",
+  "type": "feat",
+  "_id": "9s59rQAdk5BnS5NU",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Пространство вокруг тех, кого коснулся заряд, искривляется и грубо перебрасывает их в соседнее место.</em></p><p>Ваш разрушительный заряд причиняет урон силовым полем. Любое существо, получившее урон от заряда, должно преуспеть в спасброске Мудрости, иначе телепортируется на 5 футов в выбранном вами направлении. Оно должно оказаться на поверхности, способной его выдержать, и не может быть перемещено внутрь твёрдых предметов или в заведомо опасные места.</p><p><strong>Подпитка (1 оч.):</strong> дистанция телепортации увеличивается вплоть до 20 футов.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-teleporting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "115",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Искривление",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 4100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "teleporting",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "warp",
+      "tags": [],
+      "en": "Teleporting"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!9s59rQAdk5BnS5NU"
+}

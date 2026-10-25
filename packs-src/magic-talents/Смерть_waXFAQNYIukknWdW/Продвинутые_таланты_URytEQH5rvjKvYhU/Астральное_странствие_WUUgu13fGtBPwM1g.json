@@ -1,0 +1,64 @@
+{
+  "name": "Астральное странствие",
+  "type": "feat",
+  "_id": "WUUgu13fGtBPwM1g",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (1 оч.):</strong> перенося себя и/или союзников на Астральный план, вы можете позволить себе и союзникам астрально путешествовать на любой другой план, граничащий с Астральным. Если вы решаете войти на один из этих планов, вы обретаете на нём новое физическое тело (и снаряжение), в точности повторяющее ваш истинный облик, хотя серебряная нить остаётся невидимо прикреплённой к этому новому телу, а использованные магические предметы по-прежнему тратят свои применения. На вас всё ещё распространяются слабости астральной формы (вас можно рассеять, вашу нить можно оборвать и т. д.). Если ваша новая форма погибает, вы возвращаетесь в своё исходное тело.</p>",
+      "chat": ""
+    },
+    "identifier": "death-astral-travel",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "98",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 15
+    },
+    "properties": [],
+    "requirements": "сфера Смерти (Астральная проекция, Выход духа), 15-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "astral-travel",
+      "kind": null,
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Astral Travel"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!WUUgu13fGtBPwM1g"
+}

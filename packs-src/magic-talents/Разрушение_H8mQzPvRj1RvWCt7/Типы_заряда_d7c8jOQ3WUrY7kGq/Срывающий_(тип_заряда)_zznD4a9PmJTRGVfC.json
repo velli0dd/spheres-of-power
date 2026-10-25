@@ -1,0 +1,66 @@
+{
+  "name": "Срывающий (тип заряда)",
+  "type": "feat",
+  "_id": "zznD4a9PmJTRGVfC",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Разрушительная энергия окружает тех, кто пользуется магией, и сбивает их сосредоточенность.</em></p><p>Ваш разрушительный заряд причиняет урон силовым полем. Существа, получившие урон от заряда, до начала вашего следующего хода совершают с помехой все проверки концентрации.</p><p><strong>Подпитка (1 оч.):</strong> до начала вашего следующего хода существа, получившие урон от заряда, должны совершать проверку концентрации, чтобы использовать любое заклинание или магический эффект.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-disrupting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "115",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Универсальная",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 3800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "disrupting",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "universal",
+      "tags": [
+        "рассеивание"
+      ],
+      "en": "Disrupting"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!zznD4a9PmJTRGVfC"
+}

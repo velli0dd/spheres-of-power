@@ -4,5 +4,36 @@
   "SOP.SubtypeSphere": "Сфера",
   "SOP.SubtypeTalent": "Талант",
   "SOP.SubtypeDrawback": "Недостаток",
-  "SOP.SubtypeBoon": "Преимущество"
+  "SOP.SubtypeBoon": "Дар",
+  "SOP.SpellPoints": "Очки заклинаний",
+  "SOP.SpellPointsMax": "Макс. очков заклинаний",
+  "SOP.SpellPointsConfigure": "Настройка очков заклинаний",
+  "SOP.SpellPointsBaseMax": "Базовый максимум",
+  "SOP.SpellPointsBonus": "Ситуативный бонус",
+  "SOP.SpellPointsBonusHint": "Прибавляется к максимуму (может быть отрицательным). Базовое значение не меняет.",
+  "SOP.Dialog.Save": "Сохранить",
+  "SOP.progression.label": "Магия Сфер",
+  "SOP.progression.Full.label": "Полный заклинатель Сфер",
+  "SOP.progression.Half.label": "Частичный заклинатель Сфер",
+  "SOP.progression.Third.label": "Третичный заклинатель Сфер",
+
+  "SOP.CasterLevel": "Уровень заклинателя",
+  "SOP.TabSpheres": "Сферы мощи",
+
+  "SOP.Addiction.Label": "Манозависимость",
+  "SOP.Addiction.DC": "СЛ",
+  "SOP.Addiction.Penalty": "Штраф БМ",
+  "SOP.Addiction.Fail": "Провал спасброска: +1 СЛ",
+  "SOP.Addiction.Success": "Успех спасброска: −2 СЛ",
+  "SOP.Addiction.EffectName": "Манозависимость (Уровень {level})",
+
+  "SOP.Folder.SpheresOfPower": "Сферы мощи",
+  "SOP.Folder.ClassesAndFeatures": "Классы и особенности",
+  "SOP.Folder.SpheresAndTalents": "Сферы и таланты",
+  "SOP.Folder.TraditionsBoonsDrawbacks": "Традиции, дары и недостатки",
+
+  "SOP.Pack.MagicTalents": "SoP: Магические таланты",
+  "SOP.Pack.Spheres": "SoP: Сферы",
+  "SOP.Pack.CastingTraditions": "SoP: Магические традиции",
+  "SOP.Pack.Classes": "SoP: Классы"
 }

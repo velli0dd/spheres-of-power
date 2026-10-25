@@ -1,0 +1,64 @@
+{
+  "name": "Избирательный заряд",
+  "type": "feat",
+  "_id": "gBVGU9lDESuCYEeb",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "hKr6yF07Uvj46Tic",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (0 оч.):</strong> используя разрушительный заряд с мгновенной длительностью, вы можете исключить одно существо: оно не получает ни урона, ни эффектов.</p><p><strong>Подпитка (1 оч.):</strong> вы можете исключить количество существ, равное вашему бонусу мастерства.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-selective-blast",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "selective-blast",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Selective Blast"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!gBVGU9lDESuCYEeb"
+}

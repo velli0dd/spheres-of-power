@@ -1,0 +1,64 @@
+{
+  "name": "Устрашающий (тип заряда)",
+  "type": "feat",
+  "_id": "n4r9mYaP91ZvEDis",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Сомнения и неуверенность поглощают существо, погружая его в ужас.</em></p><p>Ваш разрушительный заряд причиняет урон психической энергией. Любое существо, получившее урон от заряда, должно совершить спасбросок Мудрости, иначе становится испуганным до начала вашего следующего хода. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Мудрости.</p><p><strong>Подпитка (1 оч.):</strong> существа, проваливающие спасбросок, вместо этого становятся испуганными на 1 минуту. Цель может повторять спасбросок в конце своего хода, оканчивая эффект на себе при успехе.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-frightful",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "113",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Разум",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "frightful",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "mind",
+      "tags": [],
+      "en": "Frightful"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!n4r9mYaP91ZvEDis"
+}

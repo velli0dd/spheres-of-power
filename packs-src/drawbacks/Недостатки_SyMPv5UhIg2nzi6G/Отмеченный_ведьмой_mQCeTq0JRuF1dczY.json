@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Отмеченный ведьмой",
+  "type": "feat",
+  "_id": "mQCeTq0JRuF1dczY",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Некая особенность вашей внешности явно выдаёт вашу магическую природу. Это может быть любая чисто косметическая черта, которую трудно скрыть: например, рудиментарный хвост (или хвосты), светящиеся глаза, аура, видимая невооружённым глазом, или постоянно преследующий вас запах смерти. Интенсивность этой черты растёт пропорционально вашей силе.</p><p>Любой, кто видит вас, может совершить проверку Интеллекта (Магия) со СЛ 20 − ваш удвоенный бонус мастерства, чтобы узнать вашу магическую традицию и какими сферами вы владеете. Вы также получаете штраф, равный вашему бонусу мастерства, к любым проверкам, совершаемым для маскировки вашей ведьминой метки, а использование магии раскрывает вашу метку.</p><p>Вы не можете иметь одновременно этот недостаток и недостаток @UUID[Compendium.spheres-of-power.casting-traditions.Item.8ei5aTF87HILkwam]{Магические знаки}.</p>",
+      "chat": ""
+    },
+    "identifier": "Witch-Marked",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786404572674,
+    "modifiedTime": 1789059165962,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mQCeTq0JRuF1dczY"
+}

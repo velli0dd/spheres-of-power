@@ -1,0 +1,61 @@
+{
+  "folder": "DEJNNfJPtyJsBH88",
+  "name": "Смертоносная магия",
+  "type": "feat",
+  "_id": "nOLsyMXJueN9fGiM",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Чем ближе вы к смерти, тем мощнее ваша магия.</p><p>Когда у вас половина хитов или меньше, вы считаете свой бонус мастерства на 1 выше для сотворения эффектов ваших сфер.</p>",
+      "chat": ""
+    },
+    "identifier": "DeathfulMagic",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "boon"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1789164511055,
+    "modifiedTime": 1789164866408,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nOLsyMXJueN9fGiM"
+}

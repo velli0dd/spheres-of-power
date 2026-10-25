@@ -1,0 +1,64 @@
+{
+  "name": "Распыляющий (тип заряда)",
+  "type": "feat",
+  "_id": "z63xTf97P5pkbj9x",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rCc5u6pDPDbiXCap",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (1 оч.):</strong> ваш разрушительный заряд причиняет урон силовым полем и дополнительный урон, равный вашему уровню. Любое существо, хиты которого опускаются до 0 от вашего разрушительного заряда, полностью распыляется, оставляя после себя лишь щепотку тонкой пыли; его магические предметы не затрагиваются. Такое существо можно вернуть к жизни только талантом «Великое воскрешение» или заклинаниями <em>истинное воскрешение</em> и <em>исполнение желаний</em>.</p><p>Этот тип заряда причиняет предметам двойной урон. Если целью является немагический предмет, который никто не несёт и не носит, разрушительный заряд просто распыляет до куба материи с ребром 10 футов. Таким образом, у очень большого предмета или сооружения он распыляет лишь часть. Заряд действует даже на предметы, целиком созданные из силового поля, но не на магические эффекты вроде <em>сферы неуязвимости</em>, <em>поля антимагии</em> или оберега «Барьер» сферы Защиты.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-disintegrate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "сфера Разрушения, 5-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "disintegrate",
+      "kind": "blast-type",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Disintegrate"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!z63xTf97P5pkbj9x"
+}

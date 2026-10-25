@@ -1,0 +1,64 @@
+{
+  "name": "Луч (форма заряда)",
+  "type": "feat",
+  "_id": "NEdQxBUmP8DC1GUo",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rEDy6fo8J040sOIc",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы выпускаете разрушительный заряд в виде луча, совершая дальнобойную атаку заклинанием. Если цель находится в пределах вашей естественной досягаемости, вместо этого вы можете совершить рукопашную атаку заклинанием.</p><p><strong>Подпитка (1 оч.):</strong> вы можете выпустить 2 луча. Количество лучей увеличивается на 1 на 5-м (3 луча), 11-м (4 луча) и 17-м (5 лучей) уровнях, но ни одно существо или предмет не может стать целью больше чем одного луча.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-ray",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "118",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "ray",
+      "kind": "blast-shape",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Ray"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!NEdQxBUmP8DC1GUo"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Великий призрачный удар",
+  "type": "feat",
+  "_id": "4GpsxGvU4uwCVzQM",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "aoFIi48vModMm1si",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (1 оч.):</strong> ваш призрачный удар принимает форму 30-футового конуса.</p>",
+      "chat": ""
+    },
+    "identifier": "death-greater-ghost-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "97",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "greater-ghost-strike",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Greater Ghost Strike"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!4GpsxGvU4uwCVzQM"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Помечающая магия",
+  "type": "feat",
+  "_id": "N4Jpel4uAkX8u4bE",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>На любом существе или предмете, который вы выбираете целью эффекта сферы, появляется метка. Эта метка может выглядеть как нарисованный глиф, полоска бумаги с руническими надписями или почти любое подобное проявление, и она всегда появляется на части тела или участке предмета, где её легко заметить.</p><p>Метку можно легко удалить: её можно стереть действием (что требует совершения броска атаки с преимуществом, если существо несогласно), либо она тускнеет и смывается после воздействия воды или другого растворителя в течение 1 минуты. Как только метка удалена, эффект немедленно прекращается.</p>",
+      "chat": ""
+    },
+    "identifier": "MarkingMagic",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786320375195,
+    "modifiedTime": 1789078400276,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!N4Jpel4uAkX8u4bE"
+}

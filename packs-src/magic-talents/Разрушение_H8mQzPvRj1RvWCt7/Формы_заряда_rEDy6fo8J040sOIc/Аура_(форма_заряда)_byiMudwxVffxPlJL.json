@@ -1,0 +1,64 @@
+{
+  "name": "Аура (форма заряда)",
+  "type": "feat",
+  "_id": "byiMudwxVffxPlJL",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rEDy6fo8J040sOIc",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Длительность:</strong> 1 раунд</p><p>Ваш разрушительный заряд становится аурой, окружающей вас на 10 футов. Пока аура активна, вы можете бонусным действием подвергнуть разрушительному заряду всех существ в ауре. Цели могут избежать урона успешным спасброском Ловкости, но если итоговая стоимость вашего разрушительного заряда составляет 1 оч. или больше, успешный спасбросок вместо этого вдвое уменьшает урон и отменяет дополнительные эффекты, которые (тип заряда) наложил бы на цель. Поскольку это один длящийся заряд, его тип и прочие параметры задаются при сотворении.</p><p><strong>Подпитка (1 оч.):</strong> длительность увеличивается до «концентрация, вплоть до 1 минуты».</p><p><strong>Подпитка (2 оч.):</strong> эффект сохраняется до конца длительности без концентрации. Эту подпитку можно применить в свой ход после сотворения эффекта, не тратя действия.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-aura",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "117",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "aura",
+      "kind": "blast-shape",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Aura"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!byiMudwxVffxPlJL"
+}

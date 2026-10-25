@@ -1,0 +1,64 @@
+{
+  "name": "Направленный удар",
+  "type": "feat",
+  "_id": "6WeuTxOQC8OCkle6",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "hKr6yF07Uvj46Tic",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (1 оч.):</strong> вы совершаете с преимуществом броски атаки заклинанием в рамках разрушительного заряда. Если подпитка даёт разрушительному заряду дополнительные броски атаки (например, талант @UUID[Compendium.spheres-of-power.magic-talents.Item.NEdQxBUmP8DC1GUo]{Луч (форма заряда)}), преимущество получают все броски атаки заклинанием этого сотворения. Если у вас уже есть преимущество на бросок атаки заклинанием, вы можете один раз перебросить одну из костей.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-guided-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "guided-strike",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Guided Strike"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!6WeuTxOQC8OCkle6"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Астральная проекция",
+  "type": "feat",
+  "_id": "v1zdGYzzIdsYgzRC",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (1 оч.):</strong> используя продвинутый талант @UUID[Compendium.spheres-of-power.magic-talents.Item.OFsT9Fcmak3Cdwup]{Выход духа}, вы можете перенести свой дух на Астральный план вместо Эфирного. Вы можете взять с собой по 1 дополнительному согласному существу за каждые 2 уровня, если в момент сотворения эти существа образуют вместе с вами круг, держась за руки. Эти спутники зависят от вас и должны всё время вас сопровождать. Если с вами что-то случится во время путешествия, ваши спутники останутся там, где вы их покинули.</p><p>Пока вы находитесь на Астральном плане, ваше астральное тело всё время связано с физическим бесплотной серебряной нитью. Если нить оборвётся, вы погибнете — и астрально, и физически. К счастью, очень немногое способно разрушить серебряную нить.</p><p>В отличие от обычного использования таланта @UUID[Compendium.spheres-of-power.magic-talents.Item.OFsT9Fcmak3Cdwup]{Выход духа}, вы и ваши спутники можете путешествовать по Астральному плану таким образом сколь угодно долго, пока вы не решите окончить эффект (что вернёт вас в тело) или пока его не окончит что-то извне. Этот эффект можно рассеять, как любой другой эффект сферы, выбрав целью либо вашу астральную форму, либо физическое тело. Рассеивание эффекта немедленно возвращает вас в тело.</p>",
+      "chat": ""
+    },
+    "identifier": "death-astral-projection",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "97",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "сфера Смерти (Выход духа), 11-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "astral-projection",
+      "kind": null,
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Astral Projection"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!v1zdGYzzIdsYgzRC"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Уязвимость (призрачный удар)",
+  "type": "feat",
+  "_id": "4lFclCLBbisAmhZ5",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "5FhHxn6jlAz3ILuJ",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Телосложение</p><p><strong>Призрачный удар (0 оч.):</strong> вы можете нанести призрачный удар, вынуждающий цель преуспеть в спасброске Телосложения, иначе она получает уязвимость к дробящему, колющему и рубящему урону, пока вы концентрируетесь, вплоть до 1 минуты. Если у существа есть иммунитет, он вместо этого ослабляется до сопротивления. Если у него есть сопротивление, оно вместо этого теряется. Кроме того, в течение длительности существа, проваливших спасбросок, получают дополнительно 1к6 урона от каждой атаки оружием.</p><p><strong>Подпитка (2 оч.):</strong> эффект длится 1 минуту без концентрации.</p>",
+      "chat": ""
+    },
+    "identifier": "death-vulnerability",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "93",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "vulnerability",
+      "kind": "ghost-strike",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Vulnerability"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!4lFclCLBbisAmhZ5"
+}

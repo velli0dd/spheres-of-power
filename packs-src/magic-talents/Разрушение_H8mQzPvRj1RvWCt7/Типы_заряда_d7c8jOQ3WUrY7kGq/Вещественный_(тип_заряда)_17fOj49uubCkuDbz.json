@@ -1,0 +1,66 @@
+{
+  "name": "Вещественный (тип заряда)",
+  "type": "feat",
+  "_id": "17fOj49uubCkuDbz",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Вы создаёте предмет, который летит в цель, бьёт её и исчезает.</em></p><p>Каждый раз, применяя этот талант (тип заряда), выберите дробящий, колющий или рубящий урон. Ваш разрушительный заряд причиняет урон выбранного вида. Ваш разрушительный заряд не считается магией для эффектов, дающих сопротивление, иммунитет или иные преимущества против магии.</p><p><strong>Подпитка (1 оч.):</strong> предмет или предметы разбиваются, и их обломки остаются на 1 минуту: клетки, задетые разрушительным зарядом, на 1 минуту становятся труднопроходимой местностью.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-physical",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "111",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Созидания (созидание)",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "physical",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "creation",
+      "tags": [
+        "созидание"
+      ],
+      "en": "Physical"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!17fOj49uubCkuDbz"
+}

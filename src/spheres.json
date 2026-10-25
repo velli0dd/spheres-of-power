@@ -1,0 +1,22 @@
+{
+  "alteration":   { "ru": "Изменение",    "en": "Alteration" },
+  "conjuration":  { "ru": "Призыв",       "en": "Conjuration" },
+  "creation":     { "ru": "Созидание",    "en": "Creation" },
+  "dark":         { "ru": "Тьма",         "en": "Dark" },
+  "death":        { "ru": "Смерть",       "en": "Death" },
+  "destruction":  { "ru": "Разрушение",   "en": "Destruction" },
+  "divination":   { "ru": "Прорицание",   "en": "Divination" },
+  "enhancement":  { "ru": "Усиление",     "en": "Enhancement" },
+  "fate":         { "ru": "Судьба",       "en": "Fate" },
+  "illusion":     { "ru": "Иллюзия",      "en": "Illusion" },
+  "life":         { "ru": "Жизнь",        "en": "Life" },
+  "light":        { "ru": "Свет",         "en": "Light" },
+  "mind":         { "ru": "Разум",        "en": "Mind" },
+  "nature":       { "ru": "Природа",      "en": "Nature" },
+  "protection":   { "ru": "Защита",       "en": "Protection" },
+  "telekinesis":  { "ru": "Телекинез",    "en": "Telekinesis" },
+  "time":         { "ru": "Время",        "en": "Time" },
+  "universal":    { "ru": "Универсальная", "en": "Universal" },
+  "warp":         { "ru": "Искривление",  "en": "Warp" },
+  "weather":      { "ru": "Погода",       "en": "Weather" }
+}

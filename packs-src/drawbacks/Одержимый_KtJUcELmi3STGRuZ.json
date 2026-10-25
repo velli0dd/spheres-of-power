@@ -1,0 +1,145 @@
+{
+  "name": "Одержимый",
+  "type": "feat",
+  "_id": "KtJUcELmi3STGRuZ",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {
+      "q5LPybKv95RsDqeA": {
+        "type": "ItemGrant",
+        "_id": "q5LPybKv95RsDqeA",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.spheres-of-power.sop-casting-traditions.Item.RFoxIzkInCOHx4ge",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.spheres-of-power.sop-casting-traditions.Item.g2mxT7GnEMt9rXz3",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.spheres-of-power.sop-casting-traditions.Item.GFjbQl3axeY9DHWS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.spheres-of-power.sop-casting-traditions.Item.cjrhaHpsblZZBbC3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "flags": {},
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "title": ""
+      }
+    },
+    "description": {
+      "value": "<p>В бессвязном бреду безумцев то и дело повторяется одно и то же слово. Целители полагают, что это — имя тайного бога безумия: он черпает силу в тех, кто вверяет ему свой рассудок, и взамен одаривает их крупицей этой силы.</p><p>Догадка не лишена смысла — ведь те, с чьих уст не сходит это слово, обретают способность магически искажать саму действительность вокруг.</p><p><strong>Бонусные очки заклинаний:</strong> 1 + 1 за каждые 3 уровня в классах, использующих магию</p><p><strong>Характеристика сотворения сфер (Заклинательная харатнристика):</strong> Харизма</p><p><strong>Бонусные магические таланты:</strong> Разум , Иллюзия</p><p><strong>Недостатки:</strong> @UUID[Compendium.spheres-of-power.casting-traditions.Item.RFoxIzkInCOHx4ge]{Магическая зависимость}, @UUID[Compendium.spheres-of-power.casting-traditions.Item.g2mxT7GnEMt9rXz3]{Вербальное сотворение}, @UUID[Compendium.spheres-of-power.casting-traditions.Item.GFjbQl3axeY9DHWS]{Дикая магия}</p><p><strong>Варианты:</strong> –</p><p><strong>Преимущества: </strong>@UUID[Compendium.spheres-of-power.casting-traditions.Item.cjrhaHpsblZZBbC3]{Лёгкая концентрация}</p><p><strong>Получаемое снаряжение</strong>: –</p>",
+      "chat": ""
+    },
+    "identifier": "osobennost",
+    "source": {
+      "revision": 1,
+      "rules": "2014"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "mgc",
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "tradition"
+    }
+  },
+  "effects": [
+    {
+      "name": "Одержимый",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "origin": "Compendium.spheres-of-power.sop-casting-traditions.Item.KtJUcELmi3STGRuZ",
+      "type": "base",
+      "_id": "2weSODFLfMOGXTM4",
+      "system": {
+        "changes": [
+          {
+            "key": "system.spheres.spellPoints.max",
+            "type": "add",
+            "value": "1 + floor(@spheres.casterLevel / 3)",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.361",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": 1785851685370,
+        "modifiedTime": 1786196349797,
+        "lastModifiedBy": "ACuv6oCMWkCaI8o8",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!KtJUcELmi3STGRuZ.2weSODFLfMOGXTM4"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ACuv6oCMWkCaI8o8": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785704476315,
+    "modifiedTime": 1789078086579,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KtJUcELmi3STGRuZ"
+}

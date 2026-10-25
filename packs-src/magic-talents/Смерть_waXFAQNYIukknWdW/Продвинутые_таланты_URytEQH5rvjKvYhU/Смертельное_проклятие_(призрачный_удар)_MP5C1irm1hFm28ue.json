@@ -1,0 +1,64 @@
+{
+  "name": "Смертельное проклятие (призрачный удар)",
+  "type": "feat",
+  "_id": "MP5C1irm1hFm28ue",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Телосложение</p><p>Ваш призрачный удар сразу убивает тех, кто провалил спасбросок, если их хиты не превышают порог призрачного удара. Если спасбросок от вашего призрачного удара провалили несколько существ, подпитка этого таланта действует на существо с наименьшими хитами. К этому призрачному удару можно применить только одну подпитку порога.</p><p><strong>Призрачный удар (2 оч.):</strong> <em>(Порог)</em> порог смертельного проклятия — 5 хитов.</p><p><strong>Призрачный удар (3 оч.):</strong> <em>(Порог)</em> порог смертельного проклятия — 10 хитов.</p><p><strong>Призрачный удар (4 оч.):</strong> <em>(Порог)</em> порог смертельного проклятия — 40 хитов.</p><p><strong>Призрачный удар (5 оч.):</strong> <em>(Порог)</em> порог смертельного проклятия — 70 хитов.</p><p><strong>Призрачный удар (6 оч.):</strong> <em>(Порог)</em> порог смертельного проклятия — 100 хитов.</p>",
+      "chat": ""
+    },
+    "identifier": "death-killing-curse",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "100",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "сфера Смерти",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "killing-curse",
+      "kind": "ghost-strike",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Killing Curse"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!MP5C1irm1hFm28ue"
+}

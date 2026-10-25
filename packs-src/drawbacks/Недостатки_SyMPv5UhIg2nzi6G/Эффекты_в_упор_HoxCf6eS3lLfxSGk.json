@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Эффекты в упор",
+  "type": "feat",
+  "_id": "HoxCf6eS3lLfxSGk",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Эффекты магических сфер, сотворяемые вами, не могут быть сотворены на дистанции больше касания, даже если у вас есть талант метасферы <em><strong>Дальнобойность</strong></em>. Если эффект магической сферы требует совершения броска дальнобойной атаки заклинанием, вы вместо этого совершаете бросок рукопашной атаки заклинанием.</p>",
+      "chat": ""
+    },
+    "identifier": "Point-Blank-Effects",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786321358692,
+    "modifiedTime": 1789077578616,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HoxCf6eS3lLfxSGk"
+}

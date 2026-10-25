@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": "waXFAQNYIukknWdW",
+  "name": "Призрачные удары",
+  "color": null,
+  "sorting": "a",
+  "_id": "5FhHxn6jlAz3ILuJ",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!5FhHxn6jlAz3ILuJ"
+}

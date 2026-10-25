@@ -1,0 +1,61 @@
+{
+  "folder": "DEJNNfJPtyJsBH88",
+  "name": "Связанное существо",
+  "type": "feat",
+  "_id": "MI188dEN1EpIMefN",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия связана с существом, которое разделяет с вами свою сущность и силу.</p><p>Вы получаете заклинание <em>поиск фамильяра</em> и можете использовать его как ритуал,. Вам не требуется книга ритуалов, чтобы использовать его таким образом. Когда вы используете <em>поиск фамильяра</em> как ритуал, вы можете выбрать одну из обычных форм для своего фамильяра или одну из следующих форм: ползучая рука, бес, псевдодракон, квазит или спрайт (вы также можете выбрать другую форму фамильяра с разрешения Мастера). Вам не нужно совершать проверки сотворения из-за недостатка @UUID[Compendium.spheres-of-power.casting-traditions.Item.o5zq2wifYY8hiDdx]{Сотворение с фокусировкой}, пока вы находитесь на одном плане с вашим фамильяром, в пределах 300 футов от него, и ваш фамильяр находится в сознании.</p><p>Заклинатель сфер должен обладать недостатком @UUID[Compendium.spheres-of-power.casting-traditions.Item.o5zq2wifYY8hiDdx]{Сотворение с фокусировкой}, чтобы выбрать этот дар.</p>",
+      "chat": ""
+    },
+    "identifier": "BoundCreature",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "boon"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1789162259504,
+    "modifiedTime": 1789164852669,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MI188dEN1EpIMefN"
+}

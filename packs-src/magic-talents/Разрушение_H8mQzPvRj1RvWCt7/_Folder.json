@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Разрушение",
+  "color": null,
+  "sorting": "m",
+  "_id": "H8mQzPvRj1RvWCt7",
+  "description": "",
+  "sort": 600000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!H8mQzPvRj1RvWCt7"
+}

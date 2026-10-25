@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": "H8mQzPvRj1RvWCt7",
+  "name": "Типы заряда",
+  "color": null,
+  "sorting": "a",
+  "_id": "d7c8jOQ3WUrY7kGq",
+  "description": "",
+  "sort": 700000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!d7c8jOQ3WUrY7kGq"
+}

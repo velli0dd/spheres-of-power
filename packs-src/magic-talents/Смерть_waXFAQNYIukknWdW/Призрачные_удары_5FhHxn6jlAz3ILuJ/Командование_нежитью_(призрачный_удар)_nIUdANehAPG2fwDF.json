@@ -1,0 +1,64 @@
+{
+  "name": "Командование нежитью (призрачный удар)",
+  "type": "feat",
+  "_id": "nIUdANehAPG2fwDF",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "5FhHxn6jlAz3ILuJ",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Харизма</p><p><strong>Призрачный удар (0 оч.):</strong> вы можете нанести призрачный удар, дающий вам некоторую власть над нежитью. Если существо-нежить проваливает спасбросок Харизмы, оно очаровано вами, пока вы концентрируетесь, вплоть до 10 минут, или пока вы или ваши союзники не причините ему вреда.</p><p><strong>Подпитка (1 оч.):</strong> в течение длительности каждый раунд вы можете бонусным действием отдать нежити приказ. Количество слов в приказе не может превышать ваш бонус мастерства. Цель должна преуспеть в спасброске Харизмы, иначе до начала вашего следующего хода она изо всех сил пытается выполнить приказ. Если цели отдан приказ, который она не способна выполнить, бонусное действие потрачено впустую. Чтобы отдавать приказы, вы должны иметь возможность общаться с нежитью (для зрительных приказов нежить должна вас видеть, для устных — слышать и т. д.).</p><p><strong>Подпитка (2 оч.):</strong> эффект сохраняется до конца длительности без концентрации. Эту подпитку можно применить в свой ход после сотворения эффекта, не тратя действия.</p><p><strong>Подпитка (2 оч.):</strong> длительность увеличивается до 24 часов.</p>",
+      "chat": ""
+    },
+    "identifier": "death-command-undead",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "91",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "command-undead",
+      "kind": "ghost-strike",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Command Undead"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!nIUdANehAPG2fwDF"
+}

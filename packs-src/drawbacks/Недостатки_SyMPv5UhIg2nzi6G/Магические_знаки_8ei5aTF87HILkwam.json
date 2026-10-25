@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Магические знаки",
+  "type": "feat",
+  "_id": "8ei5aTF87HILkwam",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Использование вашей магии сопровождается характерным знаком, например, ваше тело ярко светится, при сотворении раздаётся вопль измученных душ или иное проявление затрагивает всех существ в пределах 30 футов. Находящиеся рядом существа знают, когда вы используете магию, а также природу используемой магии (сферу и любые применённые таланты).</p><p>Вы не можете иметь одновременно этот недостаток и недостаток @UUID[Compendium.spheres-of-power.casting-traditions.Item.mQCeTq0JRuF1dczY]{Отмеченный ведьмой}</p>",
+      "chat": ""
+    },
+    "identifier": "MagicalSigns",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786320125246,
+    "modifiedTime": 1789078164110,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8ei5aTF87HILkwam"
+}

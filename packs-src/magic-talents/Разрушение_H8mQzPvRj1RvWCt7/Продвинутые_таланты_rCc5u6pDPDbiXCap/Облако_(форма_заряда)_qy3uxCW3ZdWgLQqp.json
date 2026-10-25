@@ -1,0 +1,64 @@
+{
+  "name": "Облако (форма заряда)",
+  "type": "feat",
+  "_id": "qy3uxCW3ZdWgLQqp",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rCc5u6pDPDbiXCap",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Длительность:</strong> концентрация, вплоть до 10 минут</p><p><strong>Подпитка (3 оч.):</strong> вы можете превратить разрушительный заряд в клубящееся облако разрушения. Облако занимает цилиндр радиусом 15 футов и высотой 15 футов и остаётся на месте, если вы бонусным действием не прикажете ему переместиться — тогда оно смещается на 40 футов. Область внутри облака сильно заслонена. Любое существо, входящее в облако или начинающее в нём ход, подвергается эффектам вашего разрушительного заряда и должно совершить спасбросок Ловкости. При успехе оно получает половину урона и избегает дополнительных эффектов, которые (тип заряда) наложил бы на цель. Радиус и высота цилиндра увеличиваются на 5 футов на 11-м уровне (радиус 20 футов, высота 20 футов) и на 17-м уровне (радиус 25 футов, высота 20 футов).</p><p><strong>Подпитка (2 оч.):</strong> эффект сохраняется до конца длительности без концентрации. Эту подпитку можно применить в свой ход после сотворения эффекта, не тратя действия.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-cloud",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "сфера Разрушения (Парящий шар), 5-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "cloud",
+      "kind": "blast-shape",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Cloud"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!qy3uxCW3ZdWgLQqp"
+}

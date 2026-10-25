@@ -1,0 +1,64 @@
+{
+  "name": "Присутствие повелителя",
+  "type": "feat",
+  "_id": "13eHgPFVu5E2wZr0",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "aoFIi48vModMm1si",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете телепатически отдавать приказы подконтрольной нежити в пределах 300 футов и общаться с ней. Для поддержания этой связи вам не нужно видеть нежить или иметь до неё свободный путь.</p>",
+      "chat": ""
+    },
+    "identifier": "death-masters-presence",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "97",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "masters-presence",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Master's Presence"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!13eHgPFVu5E2wZr0"
+}

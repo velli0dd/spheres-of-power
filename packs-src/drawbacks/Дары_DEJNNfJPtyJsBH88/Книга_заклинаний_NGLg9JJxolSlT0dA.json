@@ -1,0 +1,61 @@
+{
+  "folder": "DEJNNfJPtyJsBH88",
+  "name": "Книга заклинаний",
+  "type": "feat",
+  "_id": "NGLg9JJxolSlT0dA",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете настроиться на книгу ритуалов или книгу заклинаний, как если бы она была магическим предметом. Один раз за продолжительный отдых вы можете сотворить заклинание или ритуал из предмета, на который настроены, потратив количество очков заклинаний, равное половине уровня заклинания (округляя вверх). Вы не можете сотворить таким образом заклинание или ритуал с уровнем выше вашего бонуса мастерства. Ритуалы, которые вы сотворяете с помощью этого дара, сотворяются как заклинания и не требуют дополнительных 10 минут к обычному времени сотворения. Вы можете использовать заклинания из книги ритуалов или книги заклинаний, на которую настроены, дополнительный раз за продолжительный отдых на 5-м уровне (дважды), 11-м уровне (трижды) и 17-м уровне (четыре раза).</p><p>Заклинатель сфер должен обладать недостатком @UUID[Compendium.spheres-of-power.casting-traditions.Item.8ukcHWaSZZTnWk2n]{Подготавливающий заклинатель}, чтобы выбрать этот дар.</p>",
+      "chat": ""
+    },
+    "identifier": "Spellbook",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "boon"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1789172763570,
+    "modifiedTime": 1789172857912,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NGLg9JJxolSlT0dA"
+}

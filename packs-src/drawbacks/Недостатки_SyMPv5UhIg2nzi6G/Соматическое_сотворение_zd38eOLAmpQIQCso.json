@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Соматическое сотворение",
+  "type": "feat",
+  "_id": "zd38eOLAmpQIQCso",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы должны жестикулировать, чтобы творить заклинания. Необходимо чтобы у вас была свободна как минимум одна рука. Если у вас есть недостаток @UUID[Compendium.spheres-of-power.casting-traditions.Item.o5zq2wifYY8hiDdx]{Сотворение с фокусировкой}, рука удерживающая фокусировку не считается свободной.</p><p>Вы можете выбрать этот недостаток дважды. Если он выбран во второй раз, вы задействуете всё своё тело для сотворения магии. Вы не можете творить заклинания при ношении любого доспеха, использовании щита, а также если вы схвачены или опутаны.</p>",
+      "chat": ""
+    },
+    "identifier": "SomaticCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786403735552,
+    "modifiedTime": 1789077693631,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zd38eOLAmpQIQCso"
+}

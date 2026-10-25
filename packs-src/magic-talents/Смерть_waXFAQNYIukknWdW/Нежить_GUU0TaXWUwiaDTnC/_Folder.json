@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": "waXFAQNYIukknWdW",
+  "name": "Нежить",
+  "color": null,
+  "sorting": "a",
+  "_id": "GUU0TaXWUwiaDTnC",
+  "description": "",
+  "sort": 300000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!GUU0TaXWUwiaDTnC"
+}

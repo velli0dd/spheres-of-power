@@ -1,0 +1,8 @@
+# Базы компендиумов (LevelDB) — двоичные: Git не должен менять в них переводы строк
+packs/** binary
+
+# Не попадают в zip-архивы версий на GitHub (в репозитории остаются)
+/packs-src export-ignore
+/src export-ignore
+/tools export-ignore
+/package.json export-ignore

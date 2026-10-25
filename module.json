@@ -1,7 +1,10 @@
 {
   "id": "spheres-of-power",
   "title": "Spheres of Power",
-  "version": "1.0.0",
+  "version": "0.0.3",
+  "url": "https://github.com/velli0dd/spheres-of-power",
+  "manifest": "https://raw.githubusercontent.com/velli0dd/spheres-of-power/main/module.json",
+  "download": "https://github.com/velli0dd/spheres-of-power/archive/refs/tags/v0.0.3.zip",
   "description": "Modular magic system for D&D 5e based on Spheres of Power",
   "authors": [
     {
@@ -21,8 +24,12 @@
       }
     ]
   },
-  "esmodules": ["scripts/sop.js"],
-  "styles": ["styles/spheres.css"],
+  "esmodules": [
+    "scripts/sop.js"
+  ],
+  "styles": [
+    "styles/spheres.css"
+  ],
   "languages": [
     {
       "lang": "en",
@@ -33,29 +40,70 @@
       "lang": "ru",
       "name": "Русский",
       "path": "lang/ru.json"
-    } 
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Spheres of Power",
+      "sorting": "m",
+      "color": "#481a90",
+      "folders": [
+        {
+          "name": "Классы и особенности",
+          "sorting": "m",
+          "color": "#561fad",
+          "packs": [
+            "classes"
+          ]        
+        },
+        {
+          "name": "Сферы и таланты",
+          "sorting": "m",
+          "color": "#5e22bb",
+          "packs": [
+            "spheres",
+            "magic-talents"
+          ]  
+        },
+        {
+          "name": "Традиции, дары и недостатки",
+          "sorting": "m",
+          "color": "#6524ca",
+          "packs": [
+            "casting-traditions"
+          ]  
+        }
+      ]
+    }
   ],
   "packs": [
     {
-      "name": "sop-magic-talents",
-      "label": "SoP: Magic Talents",
+      "name": "magic-talents",
+      "label": "SOP.Pack.MagicTalents",
       "path": "packs/magic-talents",
       "type": "Item",
       "system": "dnd5e"
     },
     {
-      "name": "sop-casting-traditions",
-      "label": "SoP: Casting Traditions",
+      "name": "spheres",
+      "label": "SOP.Pack.Spheres",
+      "path": "packs/spheres",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "casting-traditions",
+      "label": "SOP.Pack.CastingTraditions",
       "path": "packs/casting-traditions",
       "type": "Item",
       "system": "dnd5e"
     },
     {
-      "name": "sop-spheres",
-      "label": "SoP: Spheres",
-      "path": "packs/spheres",
+      "name": "classes",
+      "label": "SOP.Pack.Classes",
+      "path": "packs/classes",
       "type": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e"    
     }
   ],
   "flags": {

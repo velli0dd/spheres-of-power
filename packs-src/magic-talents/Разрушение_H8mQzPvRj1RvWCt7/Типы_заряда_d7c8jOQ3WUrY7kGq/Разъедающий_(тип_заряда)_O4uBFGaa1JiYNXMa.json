@@ -1,0 +1,66 @@
+{
+  "name": "Разъедающий (тип заряда)",
+  "type": "feat",
+  "_id": "O4uBFGaa1JiYNXMa",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Разрушительная энергия медленно разъедает и распыляет всё, к чему прикасается.</em></p><p>Ваш разрушительный заряд причиняет урон кислотой. Любое существо, получившее урон от заряда, в начале своего следующего хода получает дополнительный урон кислотой, равный количеству брошенных костей урона. Этот дополнительный урон не считается частью начального урона разрушительного заряда при взаимодействии с другими чертами и способностями, увеличивающими его урон.</p><p><strong>Подпитка (1 оч.):</strong> на 1 минуту земля под целью или в области эффекта покрывается едкой слизью. Любое существо, входящее в эти клетки, получает урон кислотой, равный количеству брошенных костей урона. Одна цель может получить этот урон не чаще одного раза за раунд.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-corrosive",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "111",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Созидания (изменение)",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "corrosive",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "creation",
+      "tags": [
+        "изменение"
+      ],
+      "en": "Corrosive"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!O4uBFGaa1JiYNXMa"
+}

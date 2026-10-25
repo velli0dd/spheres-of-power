@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Материальное сотворение",
+  "type": "feat",
+  "_id": "bZuDxxKHqlTZTNDe",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия требует расхода определённых материалов: драгоценных металлов, редких компонентов и т. д. Точная природа этих материалов должна быть согласована с Мастером. Использование способности сферы, стоящей 0 очков заклинаний, требует наличия под рукой кошеля с компонентами. Способности сфер, стоящие 1 или более очков заклинаний, требуют расхода материалов стоимостью 1 золотая монета за каждое очко заклинаний.</p>",
+      "chat": ""
+    },
+    "identifier": "MaterialCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786320245029,
+    "modifiedTime": 1789077900880,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bZuDxxKHqlTZTNDe"
+}

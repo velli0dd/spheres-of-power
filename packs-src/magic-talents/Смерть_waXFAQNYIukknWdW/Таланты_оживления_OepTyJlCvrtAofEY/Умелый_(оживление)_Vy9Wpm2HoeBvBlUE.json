@@ -1,0 +1,64 @@
+{
+  "name": "Умелый (оживление)",
+  "type": "feat",
+  "_id": "Vy9Wpm2HoeBvBlUE",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "OepTyJlCvrtAofEY",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете подпитывать оживляемую нежить, давая ей слабое подобие разума.</p><p><strong>Подпитка (1 оч.):</strong> оживляемая вами нежить получает количество владений (отдельными доспехами, языками, щитами, навыками, инструментами, транспортом или оружием), равное вашему бонусу мастерства. В проверках и бросках, к которым относятся эти владения, нежить добавляет ваш бонус мастерства.</p>",
+      "chat": ""
+    },
+    "identifier": "death-skilled",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "94",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "skilled",
+      "kind": "reanimate",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Skilled"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!Vy9Wpm2HoeBvBlUE"
+}

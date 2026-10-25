@@ -1,0 +1,64 @@
+{
+  "name": "Энергетическое оружие",
+  "type": "feat",
+  "_id": "NXcDYsNRBEGHNoXh",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "hKr6yF07Uvj46Tic",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Время сотворения:</strong> 1 бонусное действие</p><p><strong>Дистанция:</strong> на себя</p><p><strong>Длительность:</strong> концентрация, вплоть до 1 минуты</p><p><strong>Стоимость:</strong> 0 оч.</p><p>Вы создаёте оружие, которым владеете, — оно выглядит сотканным из застывшей энергии. Если вы создаёте дальнобойное оружие, оно также каждый раунд производит количество боеприпасов, равное вашему бонусу мастерства. Вместо дробящего, колющего или рубящего урона оружие причиняет урон вида, соответствующего одному из ваших талантов (тип заряда). Независимо от вида урона, оружие считается магическим для преодоления иммунитета и сопротивления урону.</p><p>Если вы роняете или бросаете оружие, оно рассеивается в конце хода. Созданные этим эффектом боеприпасы также рассеиваются в конце хода. После этого, пока эффект длится, вы можете бонусным действием вернуть оружие себе в руку.</p><p><strong>Подпитка (1 оч.):</strong> в течение длительности, атакуя этим оружием, вы можете совершать бросок атаки заклинанием вместо броска атаки оружием.</p><p><strong>Подпитка (2 оч.):</strong> эффект сохраняется до конца длительности без концентрации. Эту подпитку можно применить в свой ход после сотворения эффекта, не тратя действия.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-energy-weapon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "energy-weapon",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Energy Weapon"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!NXcDYsNRBEGHNoXh"
+}

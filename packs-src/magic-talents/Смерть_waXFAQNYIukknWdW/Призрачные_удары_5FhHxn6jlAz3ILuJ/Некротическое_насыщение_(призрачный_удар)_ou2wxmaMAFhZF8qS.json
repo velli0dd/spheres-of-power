@@ -1,0 +1,64 @@
+{
+  "name": "Некротическое насыщение (призрачный удар)",
+  "type": "feat",
+  "_id": "ou2wxmaMAFhZF8qS",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "5FhHxn6jlAz3ILuJ",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Телосложение</p><p><strong>Призрачный удар (1 оч.):</strong> вы можете нанести призрачный удар, который мгновенно убивает цель с 0 хитов; спасбросок Телосложения отменяет этот эффект. Если цель проваливает спасбросок, вы восстанавливаете количество хитов, равное удвоенному количеству её костей хитов. Если показатель опасности цели был не меньше половины вашего уровня, вы также получаете преимущество на одну проверку Силы или Ловкости за каждую кость хитов убитого существа, совершённую в течение следующих 10 минут.</p>",
+      "chat": ""
+    },
+    "identifier": "death-necrotic-feeding",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "92",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "necrotic-feeding",
+      "kind": "ghost-strike",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Necrotic Feeding"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!ou2wxmaMAFhZF8qS"
+}

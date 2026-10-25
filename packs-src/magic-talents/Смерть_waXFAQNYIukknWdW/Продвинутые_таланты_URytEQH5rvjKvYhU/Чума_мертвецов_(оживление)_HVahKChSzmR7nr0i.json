@@ -1,0 +1,64 @@
+{
+  "name": "Чума мертвецов (оживление)",
+  "type": "feat",
+  "_id": "HVahKChSzmR7nr0i",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Когда вы оживляете рои или отряды нежити с помощью таланта @UUID[Compendium.spheres-of-power.magic-talents.Item.hyxMxavwDBUGXfa1]{Орда мертвецов (оживление)}, каждый рой или отряд считается одним существом-нежитью при подсчёте того, сколько нежити у вас может быть оживлено.</p>",
+      "chat": ""
+    },
+    "identifier": "death-plague-of-the-dead",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "100",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "сфера Смерти (Орда мертвецов)",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "plague-of-the-dead",
+      "kind": "reanimate",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Plague Of The Dead"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!HVahKChSzmR7nr0i"
+}

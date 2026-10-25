@@ -1,0 +1,66 @@
+{
+  "name": "Проклятие (призрачный удар)",
+  "type": "feat",
+  "_id": "1CH59Dmk8e2E0zwL",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "5FhHxn6jlAz3ILuJ",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Мудрость</p><p><strong>Призрачный удар (1 оч.):</strong> вы можете нанести призрачный удар, налагающий на цель постоянное проклятие. Успешный спасбросок Мудрости отменяет этот эффект. Проклятие снимается талантом сферы Жизни «Разрушение чар», вашей смертью или по вашему желанию (без действия), но иначе его нельзя рассеять.</p><p>Выберите один из следующих эффектов (с разрешения Мастера вы можете придумать своё проклятие, но оно не должно быть сильнее перечисленных):</p><ul><li>цель получает 3 (1к6) урона излучением за каждую минуту, проведённую на ярком свету;</li><li>цель становится слепой везде, кроме областей тусклого света и темноты;</li><li>цель должна есть и пить вдвое больше обычного, иначе начинает страдать от голода;</li><li>цель получает уязвимость к одному виду урона (это не действует на существо с иммунитетом к этому виду урона; существо с сопротивлением вместо этого теряет сопротивление).</li></ul>",
+      "chat": ""
+    },
+    "identifier": "death-curse",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "91",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "curse",
+      "kind": "ghost-strike",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [
+        "проклятие"
+      ],
+      "en": "Curse"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!1CH59Dmk8e2E0zwL"
+}

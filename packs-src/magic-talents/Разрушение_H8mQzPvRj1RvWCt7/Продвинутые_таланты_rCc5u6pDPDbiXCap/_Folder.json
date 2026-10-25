@@ -1,0 +1,17 @@
+{
+  "type": "Item",
+  "folder": "H8mQzPvRj1RvWCt7",
+  "name": "Продвинутые таланты",
+  "color": null,
+  "sorting": "a",
+  "_id": "rCc5u6pDPDbiXCap",
+  "description": "",
+  "sort": 1000000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!rCc5u6pDPDbiXCap"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Постоянная нежить",
+  "type": "feat",
+  "_id": "HdHc5MJfy8vnUORo",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Подпитка (3 оч.):</strong> оживляя нежить, вы можете сделать оживление мгновенным эффектом. Существо-нежить существует независимо от вашей концентрации, не имеет длительности, и его нельзя рассеять. Такая нежить по-прежнему учитывается в общем количестве нежити, которое у вас может быть оживлено одновременно. Если вы создаёте больше нежити, чем позволяет предел, старая постоянная нежить не уничтожается, а просто выходит из-под вашей власти и ведёт себя как обычная нежить своего вида (большинство просто нападёт на вас или на любое другое живое существо поблизости). Ваш максимум очков заклинаний уменьшается на количество очков, потраченных на создание такой нежити; это уменьшение исчезает, когда созданная нежить уничтожена, но очки заклинаний возвращаются, только когда вы обычно их восстанавливаете.</p>",
+      "chat": ""
+    },
+    "identifier": "death-permanent-undead",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "100",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "сфера Смерти, сфера Универсальная (Продление (метасфера)), 5-й уровень или выше",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "permanent-undead",
+      "kind": null,
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Permanent Undead"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!HdHc5MJfy8vnUORo"
+}

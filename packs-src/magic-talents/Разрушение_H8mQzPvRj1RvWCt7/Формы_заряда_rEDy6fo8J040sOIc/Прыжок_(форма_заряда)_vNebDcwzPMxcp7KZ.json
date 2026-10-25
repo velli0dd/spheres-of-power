@@ -1,0 +1,64 @@
+{
+  "name": "Прыжок (форма заряда)",
+  "type": "feat",
+  "_id": "vNebDcwzPMxcp7KZ",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rEDy6fo8J040sOIc",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваш разрушительный заряд становится линией шириной 5 футов и длиной 10 футов. После разрешения эффекта вы оказываетесь в последней клетке линии (или в ближайшем свободном пространстве). Цели могут избежать урона успешным спасброском Ловкости, но если итоговая стоимость вашего разрушительного заряда составляет 1 оч. или больше, успешный спасбросок вместо этого вдвое уменьшает урон и отменяет дополнительные эффекты, которые (тип заряда) наложил бы на цель. Считается, что вы не проходили через промежуточное пространство, и ваше перемещение не провоцирует атак по возможности.</p><p><strong>Подпитка (1 оч.):</strong> увеличьте длину линии на любое расстояние вплоть до дистанции вашего разрушительного заряда.</p><p><strong>Подпитка (1 оч.):</strong> после разрешения эффекта вы можете оказаться в любой точке линии, если это свободное пространство.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-leap",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "118",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "leap",
+      "kind": "blast-shape",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Leap"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!vNebDcwzPMxcp7KZ"
+}

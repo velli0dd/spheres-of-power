@@ -1,0 +1,64 @@
+{
+  "name": "Вампирический удар (призрачный удар)",
+  "type": "feat",
+  "_id": "cVUZcOh7hpRpTAtB",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "5FhHxn6jlAz3ILuJ",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Спасбросок:</strong> Телосложение</p><p><strong>Призрачный удар (1 оч.):</strong> вы можете нанести призрачный удар, причиняющий 1к6 урона некротической энергией; успешный спасбросок Телосложения уменьшает урон вдвое. Вы получаете столько же временных хитов. Таким способом нельзя получить больше временных хитов, чем текущие хиты цели. Если вы поражаете одним вампирическим ударом сразу несколько целей (например, с помощью таланта @UUID[Compendium.spheres-of-power.magic-talents.Item.4GpsxGvU4uwCVzQM]{Великий призрачный удар}), учитывается только наибольшее значение. Урон некротической энергией вашего призрачного удара увеличивается на 1к6 на 5-м (2к6), 11-м (3к6) и 17-м (4к6) уровнях.</p><p><strong>Подпитка (1 оч.):</strong> урон некротической энергией становится равен 1к6 + 1к6 за каждые 2 уровня (минимум 2к6).</p><p><strong>Подпитка (1 оч.):</strong> вместо получения временных хитов вы восстанавливаете количество хитов, равное причинённому урону.</p>",
+      "chat": ""
+    },
+    "identifier": "death-vampiric-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "92",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "vampiric-strike",
+      "kind": "ghost-strike",
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Vampiric Strike"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!cVUZcOh7hpRpTAtB"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Оберегающий (тип заряда)",
+  "type": "feat",
+  "_id": "LHHrKGSwAITbQsxI",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Вокруг поражённых возникает слабый барьер, ослабляющий их следующую атаку по вам.</em></p><p>Ваш разрушительный заряд причиняет дробящий урон. Выберите существо, которому вы причинили урон зарядом. Вы получаете сопротивление урону от первой атаки или эффекта этого существа, причиняющих вам урон до начала вашего следующего хода.</p><p><strong>Подпитка (1 оч.):</strong> вы можете выбрать количество существ, получивших урон, вплоть до вашего бонуса мастерства.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-warding",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "115",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Защита",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 3200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "warding",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "protection",
+      "tags": [],
+      "en": "Warding"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!LHHrKGSwAITbQsxI"
+}

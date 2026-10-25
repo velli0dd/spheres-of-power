@@ -1,0 +1,66 @@
+{
+  "name": "Бессмертный (оживление)",
+  "type": "feat",
+  "_id": "CALkBnNudka6UpiE",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "URytEQH5rvjKvYhU",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете проклинать оживляемую нежить, не давая её телу или душе обрести покой, даже если её форма нежити уничтожена.</p><p><strong>Подпитка (1 оч.):</strong> <em>Возрождение.</em> Если хиты нежити опускаются до 0, она не уничтожается, а лишь рассыпается (или растворяется, если это дух). Нежить нельзя снова оживить, пока вы не завершите продолжительный отдых, но за это время она восстанавливает все хиты между оживлениями. Помимо заклинаний и талантов или способностей сфер, снимающих проклятия, тело или душу проклятой нежити освобождает от проклятия окропление её рассыпавшихся останков святой водой.</p>",
+      "chat": ""
+    },
+    "identifier": "death-immortal",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "99",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "сфера Смерти (Живучесть (оживление))",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "immortal",
+      "kind": "reanimate",
+      "advanced": true,
+      "associatedSphere": null,
+      "tags": [
+        "проклятие"
+      ],
+      "en": "Immortal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!CALkBnNudka6UpiE"
+}

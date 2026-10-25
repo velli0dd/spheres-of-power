@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Оскверняющее сотворение",
+  "type": "feat",
+  "_id": "YWGE4r5INwSCsLEl",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Ваша магия черпает первозданную энергию и питательные вещества из окружающей местности. Каждый раз, когда вы используете способность сферы, вы должны либо потратить дополнительное очко заклинаний, либо увеличить время сотворения на одну ступень @UUID[Compendium.spheres-of-power.casting-traditions.Item.KbRD6DwRa9W6jXBO]{Длительное сотворение}, иначе ваша магия истощает и оскверняет местность вокруг вас, создавая осквернённую местность, повторные сотворения увеличивают степень осквернения имеющейся осквернённой местности на 1. Заклинатели, находящиеся внутри осквернённой местности и обладающие недостатком @UUID[Compendium.spheres-of-power.casting-traditions.Item.YWGE4r5INwSCsLEl]{Оскверняющее сотворение}, получают штраф к своему бонусу мастерства, равный удвоенной степени осквернения местности. Если этот штраф снижает их эффективный бонус мастерства ниже 0, они не могут использовать никакие таланты или способности магических сфер (независимо от их стоимости в очках заклинаний).</p><p>Осквернённая местность изменяется по-разному в зависимости от окружения (вода может стать солоноватой или застойной, почва — бесплодной, воздух — гнилостным); независимо от места, осквернённые области со временем восстанавливаются естественным путём в зависимости от степени осквернения.</p><table><thead><tr><th style=\"width:25%\"><p>Степень осквернения</p></th><th style=\"width:40%\"><p>Радиус осквернённой местности</p></th><th style=\"width:35%\"><p>Длительность</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>Радиус 30 футов</p></td><td><p>1 год</p></td></tr><tr><td><p>2</p></td><td><p>Радиус 120 футов</p></td><td><p>10 лет</p></td></tr><tr><td><p>3</p></td><td><p>Радиус 500 футов</p></td><td><p>100 лет</p></td></tr><tr><td><p>4</p></td><td><p>Радиус 1 миля</p></td><td><p>1000 лет</p></td></tr></tbody></table><p>Вы не можете иметь одновременно этот недостаток и недостаток @UUID[Compendium.spheres-of-power.casting-traditions.Item.KbRD6DwRa9W6jXBO]{Длительное сотворение}.</p>",
+      "chat": ""
+    },
+    "identifier": "TerrainCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786403976582,
+    "modifiedTime": 1789078262441,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YWGE4r5INwSCsLEl"
+}

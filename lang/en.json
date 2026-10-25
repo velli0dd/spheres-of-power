@@ -4,5 +4,36 @@
   "SOP.SubtypeSphere": "Sphere",
   "SOP.SubtypeTalent": "Talent",
   "SOP.SubtypeDrawback": "Drawback",
-  "SOP.SubtypeBoon": "Boon"
+  "SOP.SubtypeBoon": "Boon",
+  "SOP.SpellPoints": "Spell Points",
+  "SOP.SpellPointsMax": "Max Spell Points",
+  "SOP.SpellPointsConfigure": "Configure Spell Points",
+  "SOP.SpellPointsBaseMax": "Base maximum",
+  "SOP.SpellPointsBonus": "Situational bonus",
+  "SOP.SpellPointsBonusHint": "Added to the maximum (may be negative). Does not change the base value.",
+  "SOP.Dialog.Save": "Save",
+  "SOP.progression.label": "Spheres Casting",
+  "SOP.progression.Full.label": "Full Sphere Caster",
+  "SOP.progression.Half.label": "Half Sphere Caster",
+  "SOP.progression.Third.label": "Third Sphere Caster",
+
+  "SOP.CasterLevel": "Caster Level",
+  "SOP.TabSpheres": "Spheres",
+
+  "SOP.Addiction.Label": "Mana Addiction",
+  "SOP.Addiction.DC": "DC",
+  "SOP.Addiction.Penalty": "Proficiency penalty",
+  "SOP.Addiction.Fail": "Failed save: +1 DC",
+  "SOP.Addiction.Success": "Successful save: -2 DC",
+  "SOP.Addiction.EffectName": "Mana Addiction (Level {level})",
+
+  "SOP.Folder.SpheresOfPower": "Spheres of Power",
+  "SOP.Folder.ClassesAndFeatures": "Classes and Features",
+  "SOP.Folder.SpheresAndTalents": "Spheres and Talents",
+  "SOP.Folder.TraditionsBoonsDrawbacks": "Traditions, Boons and Drawbacks",
+
+  "SOP.Pack.MagicTalents": "SoP: Magic Talents",
+  "SOP.Pack.Spheres": "SoP: Spheres",
+  "SOP.Pack.CastingTraditions": "SoP: Casting Traditions",
+  "SOP.Pack.Classes": "SoP: Classes"
 }

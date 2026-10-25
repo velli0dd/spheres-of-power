@@ -1,0 +1,64 @@
+{
+  "name": "Некротические чувства",
+  "type": "feat",
+  "_id": "f5NpcRDBj6Pyb4G3",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "aoFIi48vModMm1si",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Время сотворения:</strong> 1 действие</p><p><strong>Длительность:</strong> концентрация, вплоть до 10 минут</p><p><strong>Цель:</strong> 1 нежить под вашим контролем в пределах 120 футов</p><p><strong>Стоимость:</strong> 0 оч.</p><p>Вы воспринимаете окружение целевого существа так, будто стоите на его месте. Вы можете пользоваться особыми чувствами существа (например, тёмным зрением), но при проверках Мудрости (Проницательность), Интеллекта (Анализ) и Мудрости (Внимательность) используете собственные характеристики и владения. Подходят только цели, полностью находящиеся под вашим контролем; очарованная нежить не находится под вашим контролем по-настоящему и поэтому не подходит. Пока вы используете эту способность, до начала вашего следующего хода любое существо совершает атаки по вам с преимуществом, а вы совершаете с помехой спасброски Ловкости.</p>",
+      "chat": ""
+    },
+    "identifier": "death-necrotic-senses",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "97",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "necrotic-senses",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Necrotic Senses"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!f5NpcRDBj6Pyb4G3"
+}

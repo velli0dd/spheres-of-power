@@ -1,0 +1,64 @@
+{
+  "name": "Животворящий (тип заряда)",
+  "type": "feat",
+  "_id": "RNAOIDjXeiZGnt3s",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "d7c8jOQ3WUrY7kGq",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><em>Импульс положительной энергии обжигает плоть всех, кого коснётся.</em></p><p>Ваш разрушительный заряд причиняет урон излучением. Вы совершаете с преимуществом все броски атаки в рамках разрушительного заряда, если цель — нежить. Нежить совершает с помехой спасброски от вашего разрушительного заряда. Если талант (форма заряда) позволяет совершить спасбросок Ловкости, вместо него совершается спасбросок Мудрости.</p><p><strong>Подпитка (1 оч.):</strong> нежить, получившая урон, должна преуспеть в спасброске Мудрости, иначе становится изгнанной до начала вашего следующего хода. Изгнанное существо должно тратить свои ходы на попытки уйти от вас как можно дальше и не может добровольно перемещаться в пространство в пределах 30 футов от вас. Оно также не может совершать реакции. В качестве действия оно может совершать только Рывок или пытаться освободиться от эффекта, мешающего ему перемещаться. Если двигаться некуда, существо может совершить действие Уклонение.</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-vivacity",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "112",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение; бесплатно со сферой Жизнь",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "vivacity",
+      "kind": "blast-type",
+      "advanced": false,
+      "associatedSphere": "life",
+      "tags": [],
+      "en": "Vivacity"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!RNAOIDjXeiZGnt3s"
+}

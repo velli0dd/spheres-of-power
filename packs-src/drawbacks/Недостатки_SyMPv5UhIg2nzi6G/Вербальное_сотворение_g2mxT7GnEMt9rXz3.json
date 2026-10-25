@@ -1,0 +1,61 @@
+{
+  "folder": "SyMPv5UhIg2nzi6G",
+  "name": "Вербальное сотворение",
+  "type": "feat",
+  "_id": "g2mxT7GnEMt9rXz3",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы должны говорить громким, чётким голосом, чтобы сотворять заклинания. Использование магии оповещает всех слышащих существ в пределах 60 футов о вашем присутствии и местонахождении, фактически нарушая скрытность. Вы не можете сотворять заклинания в области магической тишины или в любой другой ситуации, когда вы не способны говорить чётко, а если вы глухи, вы совершаете броски атаки заклинанием с помехой, а другие цели получают преимущество на спасброски против вашей магии.</p>",
+      "chat": ""
+    },
+    "identifier": "VerbalCasting",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "drawback"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ACuv6oCMWkCaI8o8": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1786195389180,
+    "modifiedTime": 1789059125862,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!g2mxT7GnEMt9rXz3"
+}

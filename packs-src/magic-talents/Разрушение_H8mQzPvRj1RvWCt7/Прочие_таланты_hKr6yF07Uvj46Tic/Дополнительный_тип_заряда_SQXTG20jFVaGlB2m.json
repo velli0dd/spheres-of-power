@@ -1,0 +1,64 @@
+{
+  "name": "Дополнительный тип заряда",
+  "type": "feat",
+  "_id": "SQXTG20jFVaGlB2m",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "hKr6yF07Uvj46Tic",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Выберите три таланта (тип заряда), которыми вы не владеете; вы получаете эти типы заряда. Вам не нужно владеть сферой (или пакетами сферы), с которой связаны эти типы заряда. С помощью этого таланта нельзя выбирать продвинутые таланты. Вы можете взять этот талант несколько раз; каждый раз вы получаете три дополнительных таланта (тип заряда).</p>",
+      "chat": ""
+    },
+    "identifier": "destruction-extra-blast-type",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": true,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Разрушение",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "destruction",
+      "talent": "extra-blast-type",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Extra Blast Type"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!SQXTG20jFVaGlB2m"
+}

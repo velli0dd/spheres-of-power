@@ -1,0 +1,64 @@
+{
+  "name": "Язык могил",
+  "type": "feat",
+  "_id": "YdJyBJ9RnEgdIHGN",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "aoFIi48vModMm1si",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p><strong>Время сотворения:</strong> 1 действие</p><p><strong>Дистанция:</strong> 30 футов</p><p><strong>Длительность:</strong> 10 минут</p><p><strong>Цель:</strong> 1 труп или существо-нежить</p><p><strong>Стоимость:</strong> 1 оч.</p><p>Вы получаете способность говорить с нежитью и трупами. Вы можете общаться с ними, задавать им вопросы и получать ответы. Простая нежить или труп, с которыми вы говорите с помощью языка могил, не помнят ни своей жизни, ни смерти — только время, прошедшее после смерти. Восприятие окружения у обычного трупа ограничено, поэтому он не сможет дать (или узнать) подробное описание существ или ответить на вопросы о событиях за пределами своего ближайшего окружения. Этот эффект не делает нежить дружелюбнее или сговорчивее обычного. Нежить под вашим контролем всегда отвечает правдиво, хотя её способность отвечать на что-то сложнее простых вопросов ограничена. Вам не нужно владеть общим с целью языком.</p>",
+      "chat": ""
+    },
+    "identifier": "death-gravetongue",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Spheres of Power 5e",
+      "page": "97",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Смерть",
+    "type": {
+      "value": "sphere",
+      "subtype": "talent"
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "spheres-of-power": {
+      "sphere": "death",
+      "talent": "gravetongue",
+      "kind": null,
+      "advanced": false,
+      "associatedSphere": null,
+      "tags": [],
+      "en": "Gravetongue"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!YdJyBJ9RnEgdIHGN"
+}

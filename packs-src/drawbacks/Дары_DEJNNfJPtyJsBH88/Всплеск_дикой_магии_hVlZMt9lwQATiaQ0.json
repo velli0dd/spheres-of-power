@@ -1,0 +1,61 @@
+{
+  "folder": "DEJNNfJPtyJsBH88",
+  "name": "Всплеск дикой магии",
+  "type": "feat",
+  "_id": "hVlZMt9lwQATiaQ0",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": {},
+    "description": {
+      "value": "<p>Вы можете увеличить свой бонус мастерства на 1 для следующего эффекта сферы, используемого до начала вашего следующего хода. Но ваш шанс дикой магии увеличится на 100% на тот же период.</p><p>Заклинатель сфер должен обладать недостатком @UUID[Compendium.spheres-of-power.casting-traditions.Item.GFjbQl3axeY9DHWS]{Дикая магия}, чтобы выбрать этот дар.</p>",
+      "chat": ""
+    },
+    "identifier": "WildSurge",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": ["WildMagic"],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "sphere",
+      "subtype": "boon"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YkimGY93EwZTisDR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1789172972357,
+    "modifiedTime": 1789173155212,
+    "lastModifiedBy": "YkimGY93EwZTisDR",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hVlZMt9lwQATiaQ0"
+}
