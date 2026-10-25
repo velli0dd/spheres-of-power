@@ -2,10 +2,99 @@
   "name": "Катастрофа (форма заряда)",
   "type": "feat",
   "_id": "gYzESKwtF5CNhVTT",
-  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
   "folder": "rCc5u6pDPDbiXCap",
   "system": {
-    "activities": {},
+    "activities": {
+      "cwcKrNZ4U42M6de0": {
+        "_id": "cwcKrNZ4U42M6de0",
+        "type": "utility",
+        "name": "Подпитка (1 оч.): при использовании формы заряда Ваяние (форма…",
+        "img": "",
+        "sort": 100000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "при использовании формы заряда Ваяние (форма заряда) линия становится длиной 500 футов, конус — длиной 90 футов, либо вы поражаете всё в пределах 30 футов от себя."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
     "uses": {
       "spent": 0,
       "recovery": [],

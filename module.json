@@ -1,10 +1,10 @@
 {
   "id": "spheres-of-power",
   "title": "Spheres of Power",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "url": "https://github.com/velli0dd/spheres-of-power",
   "manifest": "https://raw.githubusercontent.com/velli0dd/spheres-of-power/main/module.json",
-  "download": "https://github.com/velli0dd/spheres-of-power/archive/refs/tags/v0.0.3.zip",
+  "download": "https://github.com/velli0dd/spheres-of-power/archive/refs/tags/v0.0.4.zip",
   "description": "Modular magic system for D&D 5e based on Spheres of Power",
   "authors": [
     {

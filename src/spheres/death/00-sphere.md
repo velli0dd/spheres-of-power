@@ -4,6 +4,23 @@ kind: sphere
 en: Death
 page: 90
 
+```action
+name: Изнуряющий удар
+type: save
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
+```action
+name: Оживление
+type: utility
+range: 30
+target: 1 creature
+duration: conc minute 10
+```
+
 Вы повелеваете силами не-жизни. Получив сферу Смерти, вы получаете способности сферы «призрачный удар» и «оживление», а также один талант (нежить) на свой выбор.
 
 ### Призрачный удар

@@ -2,10 +2,99 @@
   "name": "Астральная проекция",
   "type": "feat",
   "_id": "v1zdGYzzIdsYgzRC",
-  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "img": "icons/magic/death/skull-humanoid-white-blue.webp",
   "folder": "URytEQH5rvjKvYhU",
   "system": {
-    "activities": {},
+    "activities": {
+      "PGrW2ky72Anmvbdy": {
+        "_id": "PGrW2ky72Anmvbdy",
+        "type": "utility",
+        "name": "Подпитка (1 оч.): используя продвинутый талант Выход духа, вы…",
+        "img": "",
+        "sort": 100000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "используя продвинутый талант Выход духа, вы можете перенести свой дух на Астральный план вместо Эфирного. Вы можете взять с собой по 1 дополнительному согласному существу за каждые 2 уровня, если в момент сотворения эти существа образуют вместе с вами круг, держась за руки. Эти спутники зависят от вас и должны всё время вас сопровождать. Если с вами что-то случится во время путешествия, ваши спутники останутся там, где вы их покинули."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
     "uses": {
       "spent": 0,
       "recovery": [],

@@ -2,10 +2,275 @@
   "name": "Бесплотный (оживление)",
   "type": "feat",
   "_id": "BShcAqofgfoV94oF",
-  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "img": "icons/magic/death/skull-humanoid-white-blue.webp",
   "folder": "OepTyJlCvrtAofEY",
   "system": {
-    "activities": {},
+    "activities": {
+      "Ll7b1qI3AQlgM4y1": {
+        "_id": "Ll7b1qI3AQlgM4y1",
+        "type": "utility",
+        "name": "Подпитка (1 оч.): Эфирное зрение",
+        "img": "",
+        "sort": 100000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "Эфирное зрение. Находясь на Материальном плане, нежить видит на 60 футов в Эфирный план, и наоборот."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "tHSedvqA7Mj3KcF2": {
+        "_id": "tHSedvqA7Mj3KcF2",
+        "type": "utility",
+        "name": "Подпитка (2 оч.): Бесплотное перемещение",
+        "img": "",
+        "sort": 200000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "Бесплотное перемещение. Оживлённая вами нежить может становиться бесплотной во время перемещения и проходить сквозь других существ и предметы, как если бы они были труднопроходимой местностью. Если она оканчивает ход внутри предмета, её выталкивает в ближайшее свободное пространство, и она получает 1к10 урона силовым полем за каждые 5 пройденных футов."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "OovBB8L6roqpmTdr": {
+        "_id": "OovBB8L6roqpmTdr",
+        "type": "utility",
+        "name": "Подпитка (3 оч.): Одержимость (требует «Бесплотного перемещения»)",
+        "img": "",
+        "sort": 300000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "Одержимость (требует «Бесплотного перемещения»). Одно существо, которое нежить видит в пределах 5 футов от себя, должно преуспеть в спасброске Харизмы, иначе нежить вселяется в него; нежить исчезает, а цель становится недееспособной и теряет контроль над своим телом. Теперь телом управляет нежить, но цель не лишается сознания. Нежить нельзя выбрать целью атаки, заклинания или другого эффекта, кроме изгоняющих нежить и тех, что явно нацелены на существ, вселившихся в другое существо или предмет; она сохраняет своё мировоззрение, Интеллект, Мудрость, Харизму и иммунитеты. В остальном она использует параметры цели, но не получает доступа к её знаниям, классовым умениям и владениям. Один раз за раунд во время одержимости цель может потратить кость хитов, не тратя действия, чтобы совершить дополнительный спасбросок Харизмы и окончить эффект; у существ, которыми не управляют игроки, количество костей хитов обычно определяется их блоком параметров."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
     "uses": {
       "spent": 0,
       "recovery": [],

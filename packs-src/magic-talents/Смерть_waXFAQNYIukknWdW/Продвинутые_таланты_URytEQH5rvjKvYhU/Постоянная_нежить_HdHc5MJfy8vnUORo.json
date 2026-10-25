@@ -2,10 +2,99 @@
   "name": "Постоянная нежить",
   "type": "feat",
   "_id": "HdHc5MJfy8vnUORo",
-  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "img": "icons/magic/death/skull-humanoid-white-blue.webp",
   "folder": "URytEQH5rvjKvYhU",
   "system": {
-    "activities": {},
+    "activities": {
+      "5TCAbV99saWmmcLu": {
+        "_id": "5TCAbV99saWmmcLu",
+        "type": "utility",
+        "name": "Подпитка (3 оч.): оживляя нежить, вы можете сделать оживление…",
+        "img": "",
+        "sort": 100000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "оживляя нежить, вы можете сделать оживление мгновенным эффектом. Существо-нежить существует независимо от вашей концентрации, не имеет длительности, и его нельзя рассеять. Такая нежить по-прежнему учитывается в общем количестве нежити, которое у вас может быть оживлено одновременно. Если вы создаёте больше нежити, чем позволяет предел, старая постоянная нежить не уничтожается, а просто выходит из-под вашей власти и ведёт себя как обычная нежить своего вида (большинство просто нападёт на вас или на любое другое живое существо поблизости). Ваш максимум очков заклинаний уменьшается на количество очков, потраченных на создание такой нежити; это уменьшение исчезает, когда созданная нежить уничтожена, но очки заклинаний возвращаются, только когда вы обычно их восстанавливаете."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
     "uses": {
       "spent": 0,
       "recovery": [],

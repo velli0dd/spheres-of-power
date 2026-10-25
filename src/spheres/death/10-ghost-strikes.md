@@ -6,6 +6,16 @@ kind: ghost-strike
 en: Command Undead
 page: 91
 
+```action
+name: Командование нежитью
+type: save
+range: 30
+target: 1 creature
+duration: conc minute 10
+save: cha
+onsave: none
+```
+
 **Спасбросок:** Харизма
 
 **Призрачный удар (0 оч.):** вы можете нанести призрачный удар, дающий вам некоторую власть над нежитью. Если существо-нежить проваливает спасбросок Харизмы, оно очаровано вами, пока вы концентрируетесь, вплоть до 10 минут, или пока вы или ваши союзники не причините ему вреда.
@@ -23,6 +33,17 @@ en: Curse
 tags: проклятие
 page: 91
 
+```action
+name: Проклятие
+type: save
+cost: 1
+range: 30
+target: 1 creature
+duration: perm
+save: wis
+onsave: none
+```
+
 **Спасбросок:** Мудрость
 
 **Призрачный удар (1 оч.):** вы можете нанести призрачный удар, налагающий на цель постоянное проклятие. Успешный спасбросок Мудрости отменяет этот эффект. Проклятие снимается талантом сферы Жизни [[life:break-enchantment|«Разрушение чар»]], вашей смертью или по вашему желанию (без действия), но иначе его нельзя рассеять.
@@ -39,6 +60,16 @@ id: inflict-disease
 kind: ghost-strike
 en: Inflict Disease
 page: 91
+
+```action
+name: Насылание болезни
+type: save
+cost: 2
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
 
 **Спасбросок:** Телосложение
 
@@ -64,6 +95,16 @@ kind: ghost-strike
 en: Lich Strike
 page: 92
 
+```action
+name: Удар лича
+type: save
+cost: 2
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
 **Спасбросок:** Телосложение
 
 **Призрачный удар (2 оч.):** вы можете нанести призрачный удар, который при проваленном спасброске Телосложения парализует цель на 1 раунд. Существо, преуспевшее в спасброске, получает иммунитет к этому вашему эффекту до окончания вашего продолжительного отдыха. Любой, кто парализован ударом лича, кажется мёртвым, однако успешная проверка Мудрости (Внимательность) СЛ 20 или Мудрости (Медицина) СЛ 15 показывает, что жертва всё ещё жива. Длительность паралича увеличивается на 1 раунд на 5-м (2 раунда), 11-м (3 раунда) и 17-м (4 раунда) уровнях.
@@ -73,6 +114,26 @@ id: manipulate-undeath
 kind: ghost-strike
 en: Manipulate Undeath
 page: 92
+
+```action
+name: Управление не-жизнью: урон
+type: save
+range: 30
+target: 1 creature
+save: wis
+onsave: none
+damage: {tier}d12 | necrotic
+```
+
+```action
+name: Управление не-жизнью: лечение
+type: heal
+cost: 1
+range: 30
+target: 1 creature
+heal: {tier}d12
+augment: 1
+```
 
 **Спасбросок:** Мудрость
 
@@ -86,6 +147,16 @@ kind: ghost-strike
 en: Necrotic Feeding
 page: 92
 
+```action
+name: Некротическое насыщение
+type: save
+cost: 1
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
 **Спасбросок:** Телосложение
 
 **Призрачный удар (1 оч.):** вы можете нанести призрачный удар, который мгновенно убивает цель с 0 хитов; спасбросок Телосложения отменяет этот эффект. Если цель проваливает спасбросок, вы восстанавливаете количество хитов, равное удвоенному количеству её костей хитов. Если показатель опасности цели был не меньше половины вашего уровня, вы также получаете преимущество на одну проверку Силы или Ловкости за каждую кость хитов убитого существа, совершённую в течение следующих 10 минут.
@@ -95,6 +166,15 @@ id: sickening
 kind: ghost-strike
 en: Sickening
 page: 92
+
+```action
+name: Тошнотворный удар
+type: save
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
 
 **Спасбросок:** Телосложение
 
@@ -107,6 +187,29 @@ id: vampiric-strike
 kind: ghost-strike
 en: Vampiric Strike
 page: 92
+
+```action
+name: Вампирический удар
+type: save
+cost: 1
+range: 30
+target: 1 creature
+save: con
+onsave: half
+damage: {tier}d6 | necrotic
+```
+
+```action
+name: Вампирический удар: усиленный урон
+type: save
+cost: 2
+range: 30
+target: 1 creature
+save: con
+onsave: half
+damage: (max(2, 1 + floor(@spheres.casterLevel / 2)))d6 | necrotic
+augment: 1
+```
 
 **Спасбросок:** Телосложение
 
@@ -121,6 +224,16 @@ id: vulnerability
 kind: ghost-strike
 en: Vulnerability
 page: 93
+
+```action
+name: Уязвимость
+type: save
+range: 30
+target: 1 creature
+duration: conc minute 1
+save: con
+onsave: none
+```
 
 **Спасбросок:** Телосложение
 

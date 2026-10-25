@@ -303,6 +303,56 @@ advanced: да
 prereq: сфера Смерти
 page: 100
 
+```action
+name: Смертельное проклятие: порог 5 хитов
+type: save
+cost: 2
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
+```action
+name: Смертельное проклятие: порог 10 хитов
+type: save
+cost: 3
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
+```action
+name: Смертельное проклятие: порог 40 хитов
+type: save
+cost: 4
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
+```action
+name: Смертельное проклятие: порог 70 хитов
+type: save
+cost: 5
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
+```action
+name: Смертельное проклятие: порог 100 хитов
+type: save
+cost: 6
+range: 30
+target: 1 creature
+save: con
+onsave: none
+```
+
 **Спасбросок:** Телосложение
 
 Ваш призрачный удар сразу убивает тех, кто провалил спасбросок, если их хиты не превышают порог призрачного удара. Если спасбросок от вашего призрачного удара провалили несколько существ, подпитка этого таланта действует на существо с наименьшими хитами. К этому призрачному удару можно применить только одну подпитку порога.
@@ -437,6 +487,14 @@ prereq: сфера Смерти, 11-й уровень или выше
 level: 11
 page: 101
 
+```action
+name: Выход духа
+type: utility
+cost: 2
+range: self
+duration: minute 1
+```
+
 **Время сотворения:** 1 действие
 
 **Длительность:** 1 минута
@@ -477,6 +535,16 @@ prereq: сфера Смерти, 15-й уровень или выше
 level: 15
 page: 101
 
+```action
+name: Ловушка душ
+type: save
+cost: 3
+range: touch
+target: 1 creature
+save: cha
+onsave: none
+```
+
 **Время сотворения:** 1 действие
 
 **Дистанция:** касание
@@ -511,6 +579,16 @@ en: Summon Spirit
 advanced: да
 prereq: сфера Смерти, 1-й уровень или выше
 page: 102
+
+```action
+name: Призыв духа
+type: save
+activation: hour 1
+cost: 2
+duration: conc hour 8
+save: cha
+onsave: none
+```
 
 **Время сотворения:** 1 час
 

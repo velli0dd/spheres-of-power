@@ -2,10 +2,99 @@
   "name": "Затеняющий (тип заряда)",
   "type": "feat",
   "_id": "0sYrVfUHw1RnkbJZ",
-  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
   "folder": "d7c8jOQ3WUrY7kGq",
   "system": {
-    "activities": {},
+    "activities": {
+      "cvE2pRNq8uG06PuV": {
+        "_id": "cvE2pRNq8uG06PuV",
+        "type": "utility",
+        "name": "Подпитка (1 оч.): существа без тёмного зрения вместо этого…",
+        "img": "",
+        "sort": 100000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "существа без тёмного зрения вместо этого становятся ослеплёнными на количество раундов, равное вашему бонусу мастерства. Существа с тёмным зрением считают всех существ находящимися за укрытием на половину (+2 к КД и спасброскам Ловкости) на количество раундов, равное вашему бонусу мастерства. Существа, способные видеть сквозь магическую тьму, не получают штрафов. Успешный спасбросок Мудрости сокращает эти длительности до 1 раунда."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
     "uses": {
       "spent": 0,
       "recovery": [],

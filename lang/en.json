@@ -19,6 +19,14 @@
 
   "SOP.CasterLevel": "Caster Level",
   "SOP.TabSpheres": "Spheres",
+  "SOP.KeyAbility": "Key Ability",
+  "SOP.KeyAbilityDefault": "Spellcasting ability",
+  "SOP.KeyAbilityHint": "Set by your casting tradition. Determines your sphere DC and sphere attack.",
+  "SOP.SphereDC": "Sphere DC",
+  "SOP.SphereAttack": "Sphere Attack",
+  "SOP.MaxSpend": "Max SP per effect",
+  "SOP.MaxSpendHint": "You cannot spend more spell points on a single sphere effect (including augments) than your proficiency bonus.",
+  "SOP.Warning.MaxSpend": "Cannot spend {cost} sp on a single effect: the maximum is {max} (proficiency bonus).",
 
   "SOP.Addiction.Label": "Mana Addiction",
   "SOP.Addiction.DC": "DC",

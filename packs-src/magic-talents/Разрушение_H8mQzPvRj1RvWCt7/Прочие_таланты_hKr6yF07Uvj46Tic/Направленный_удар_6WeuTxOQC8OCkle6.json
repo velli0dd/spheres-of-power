@@ -2,10 +2,99 @@
   "name": "Направленный удар",
   "type": "feat",
   "_id": "6WeuTxOQC8OCkle6",
-  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
   "folder": "hKr6yF07Uvj46Tic",
   "system": {
-    "activities": {},
+    "activities": {
+      "2lGJ0kS1E7kEFoKN": {
+        "_id": "2lGJ0kS1E7kEFoKN",
+        "type": "utility",
+        "name": "Подпитка (1 оч.): вы совершаете с преимуществом броски атаки…",
+        "img": "",
+        "sort": 100000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "вы совершаете с преимуществом броски атаки заклинанием в рамках разрушительного заряда. Если подпитка даёт разрушительному заряду дополнительные броски атаки (например, талант Луч (форма заряда)), преимущество получают все броски атаки заклинанием этого сотворения. Если у вас уже есть преимущество на бросок атаки заклинанием, вы можете один раз перебросить одну из костей."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
     "uses": {
       "spent": 0,
       "recovery": [],

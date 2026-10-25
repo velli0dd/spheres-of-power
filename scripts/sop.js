@@ -1,5 +1,8 @@
 const MODULE_ID = "spheres-of-power";
-const { SchemaField, NumberField } = foundry.data.fields;
+const { SchemaField, NumberField, StringField } = foundry.data.fields;
+
+/** Путь к очкам заклинаний для расхода в действиях (consumption target «attribute»). */
+const SPELL_POINTS_PATH = "spheres.spellPoints.value";
 
 import {
     hasAddictiveCastingDrawback,
@@ -24,6 +27,8 @@ export class SpheresCharacterData extends dnd5e.dataModels.actor.CharacterData {
                 bonus: new NumberField({ initial: 0, integer: true })
             }),
             casterLevel: new NumberField({ initial: 0, min: 0, integer: true }),
+            // Ключевая характеристика традиции; пусто — берётся заклинательная характеристика dnd5e
+            ability: new StringField({ initial: "", blank: true }),
             addiction: new SchemaField({
                 level: new NumberField({ initial: 0, min: 0, integer: true }),
                 dc: new NumberField({ initial: 8, min: 8, integer: true })
@@ -36,6 +41,25 @@ export class SpheresCharacterData extends dnd5e.dataModels.actor.CharacterData {
     prepareBaseData() {
         super.prepareBaseData();
         this.spheres.casterLevel = this._computeSphereCasterLevel();
+        this._applyAddictionPenalty();
+    }
+
+    /**
+     * Манозависимость снижает бонус мастерства. dnd5e задаёт БМ в prepareBaseData,
+     * а спасброски, навыки, СЛ и атаки считает уже в prepareDerivedData — поэтому
+     * штраф применяется здесь, до них, и все они видят сниженное значение.
+     */
+    _applyAddictionPenalty() {
+        const addiction = this.spheres.addiction;
+        const baseProf = this.attributes.prof || 0;
+        const active = hasAddictiveCastingDrawback(this.parent);
+
+        addiction.active = active;
+        addiction.baseProf = baseProf;
+        addiction.maxLevel = active ? baseProf : 0;
+        addiction.level = active ? Math.clamp(addiction.level || 0, 0, baseProf) : 0;
+
+        if (addiction.level > 0) this.attributes.prof = Math.max(0, baseProf - addiction.level);
     }
 
     /**
@@ -70,26 +94,26 @@ export class SpheresCharacterData extends dnd5e.dataModels.actor.CharacterData {
         sp.max = Math.max(0, baseMax + (sp.bonus ?? 0));
         sp.value = Math.clamp(sp.value ?? 0, 0, sp.max);
 
-        // Маназависимость: действует только пока есть недостаток
-        const addiction = this.spheres.addiction;
-        const baseProf = this.attributes.prof || 0;
-        const active = hasAddictiveCastingDrawback(this.parent);
-
-        addiction.active = active;
-        addiction.maxLevel = active ? baseProf : 0;
-        addiction.level = active ? Math.clamp(addiction.level || 0, 0, baseProf) : 0;
-
-        // ВНИМАНИЕ: это выполняется после super.prepareDerivedData(), поэтому навыки/спасброски,
-        // посчитанные внутри dnd5e, могут не увидеть сниженный БМ. Проверь на листе (см. сообщение).
-        if (active && addiction.level > 0) {
-            this.attributes.prof = Math.max(0, baseProf - addiction.level);
-        }
+        // Ключевая характеристика: СЛ сферы = 8 + БМ + мод., атака сферы = БМ + мод. (книга, стр. 5).
+        // БМ уже учитывает штраф манозависимости.
+        const prof = this.attributes.prof || 0;
+        const key = this.spheres.ability || this.attributes.spellcasting || "";
+        const mod = this.abilities[key]?.mod ?? 0;
+        this.spheres.keyAbility = key;
+        this.spheres.mod = mod;
+        this.spheres.attack = prof + mod;
+        this.spheres.dc = 8 + prof + mod;
+        // Больше этого нельзя потратить на один эффект вместе с подпитками
+        sp.maxSpend = prof;
     }
 
     getRollData(options) {
         const data = super.getRollData(options);
         data.spheres = {
             casterLevel: this.spheres.casterLevel,
+            mod: this.spheres.mod ?? 0,
+            attack: this.spheres.attack ?? 0,
+            dc: this.spheres.dc ?? 8,
             spellPoints: { ...this.spheres.spellPoints },
             addiction: { ...this.spheres.addiction }
         };
@@ -158,6 +182,10 @@ class SpheresCharacterSheet extends dnd5e.applications.actor.CharacterActorSheet
             max: spMax,
             percentage: Math.clamp(spPercentage, 0, 100),
             casterLevel: spheres?.casterLevel ?? 0,
+            keyAbility: CONFIG.DND5E.abilities[spheres?.keyAbility]?.label ?? "—",
+            dc: spheres?.dc ?? 8,
+            attack: (spheres?.attack ?? 0) >= 0 ? `+${spheres?.attack ?? 0}` : `${spheres.attack}`,
+            maxSpend: spheres?.spellPoints?.maxSpend ?? 0,
             editable: this.isEditable
         };
 
@@ -285,8 +313,22 @@ function isEditMode(sheet) {
 async function openSpellPointsConfig(actor) {
     const L = key => game.i18n.localize(key);
     const source = actor._source.system.spheres.spellPoints;
+    const ability = actor._source.system.spheres.ability ?? "";
+    const fallback = CONFIG.DND5E.abilities[actor.system.attributes.spellcasting]?.label;
+    const options = [
+        `<option value="">${L("SOP.KeyAbilityDefault")}${fallback ? ` (${fallback})` : ""}</option>`,
+        ...Object.entries(CONFIG.DND5E.abilities).map(([id, cfg]) =>
+            `<option value="${id}" ${id === ability ? "selected" : ""}>${cfg.label}</option>`)
+    ].join("");
 
     const content = `
+        <div class="form-group">
+            <label>${L("SOP.KeyAbility")}</label>
+            <div class="form-fields">
+                <select name="ability">${options}</select>
+            </div>
+            <p class="hint">${L("SOP.KeyAbilityHint")}</p>
+        </div>
         <div class="form-group">
             <label>${L("SOP.SpellPointsBaseMax")}</label>
             <div class="form-fields">
@@ -310,6 +352,7 @@ async function openSpellPointsConfig(actor) {
             label: L("SOP.Dialog.Save"),
             icon: "fa-solid fa-check",
             callback: (event, button) => ({
+                ability: button.form.elements.ability.value,
                 max: Math.max(0, num(button.form.elements.max)),
                 bonus: num(button.form.elements.bonus)
             })
@@ -319,6 +362,7 @@ async function openSpellPointsConfig(actor) {
     if (!result) return;
 
     await actor.update({
+        "system.spheres.ability": result.ability,
         "system.spheres.spellPoints.max": result.max,
         "system.spheres.spellPoints.bonus": result.bonus
     });
@@ -455,6 +499,36 @@ Hooks.once("setup", () => {
     if (Array.isArray(tracked.value) && !tracked.value.includes("spheres.casterLevel")) {
         tracked.value.push("spheres.casterLevel");
     }
+});
+
+/** Очки заклинаний можно указывать как расходуемый ресурс в действиях. dnd5e заполняет список в своём setup. */
+Hooks.once("setup", () => {
+    const resources = CONFIG.DND5E.consumableResources;
+    if (Array.isArray(resources) && !resources.includes(SPELL_POINTS_PATH)) resources.push(SPELL_POINTS_PATH);
+});
+
+/** Запас очков заклинаний полностью восстанавливается после продолжительного отдыха (книга, стр. 5). */
+Hooks.on("dnd5e.preRestCompleted", (actor, result) => {
+    const sp = actor.system.spheres?.spellPoints;
+    if (!result.longRest || !sp || (sp.value >= sp.max)) return;
+    result.updateData["system.spheres.spellPoints.value"] = sp.max;
+});
+
+/**
+ * На один эффект сферы (вместе с подпитками) нельзя потратить больше очков, чем бонус мастерства
+ * (книга, стр. 5). Считаем очки, которые списывает это действие.
+ */
+Hooks.on("dnd5e.preActivityConsumption", (activity, usageConfig) => {
+    const sp = activity.actor?.system.spheres?.spellPoints;
+    if (!sp || (usageConfig.consume?.resources === false)) return;
+
+    const cost = activity.consumption.targets
+        .filter(t => (t.type === "attribute") && (t.target === SPELL_POINTS_PATH))
+        .reduce((sum, t) => sum + (Number(t.value) || 0), 0);
+    if (cost <= sp.maxSpend) return;
+
+    ui.notifications.warn(game.i18n.format("SOP.Warning.MaxSpend", { cost, max: sp.maxSpend }));
+    return false;
 });
 
 Hooks.on("renderCharacterActorSheet", injectSidebarWidgets);

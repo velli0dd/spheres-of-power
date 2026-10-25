@@ -68,8 +68,23 @@ function parseFile(file, sphereId) {
     let current = null;
     let inMeta = false;
     let inComment = false;
+    let action = null;
 
     lines.forEach((line, i) => {
+        // Блок ```action … ``` — описание действия dnd5e, в текст не попадает
+        if (action) {
+            if (/^```\s*$/.test(line)) action = null;
+            else action.lines.push(line);
+            return;
+        }
+        if (/^```action\s*$/.test(line)) {
+            if (!current) warn(`${rel(file)}:${i + 1}: блок action вне элемента пропущен`);
+            action = { lines: [], line: i + 1 };
+            current?.actions.push(action);
+            inMeta = false;
+            return;
+        }
+
         // HTML-комментарии <!-- --> — заметки переводчика, в Foundry не попадают
         if (inComment) {
             if (line.includes("-->")) inComment = false;
@@ -88,7 +103,7 @@ function parseFile(file, sphereId) {
             return;
         }
         if (h2) {
-            current = { name: h2[1].trim(), meta: {}, body: [], folder, file, line: i + 1, sphere: sphereId };
+            current = { name: h2[1].trim(), meta: {}, body: [], actions: [], folder, file, line: i + 1, sphere: sphereId };
             items.push(current);
             inMeta = true;
             return;
@@ -176,6 +191,214 @@ function toHtml(lines, ctx) {
 }
 
 /* -------------------------------------------- */
+/*  Действия (activities) dnd5e                 */
+/* -------------------------------------------- */
+
+const SPELL_POINTS = "spheres.spellPoints.value";
+
+/** Виды урона, из которых игрок выбирает при броске урона разрушительного заряда. */
+const BLAST_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic",
+    "piercing", "poison", "psychic", "radiant", "slashing", "thunder"];
+
+/**
+ * Сокращения в формулах:
+ *   {tier} — 1 кость, +1 на 5, 11 и 17 уровне заклинателя (1 → 4);
+ *   {half} — 1 кость + 1 за каждые 2 уровня заклинателя;
+ *   blast / blast+ — урон разрушительного заряда без подпитки / с подпиткой.
+ */
+function expandFormula(formula) {
+    return formula.trim()
+        .replace(/^blast\+(?=\s|$)/, "{half}d8")
+        .replace(/^blast(?=\s|$)/, "{tier}d8")
+        .replaceAll("{tier}", "(floor((@spheres.casterLevel + 1) / 6) + 1)")
+        .replaceAll("{half}", "(1 + floor(@spheres.casterLevel / 2))");
+}
+
+function damagePart(spec) {
+    const [formula, types = ""] = spec.split("|").map(s => s.trim());
+    return {
+        number: null, denomination: null, bonus: "",
+        types: types === "blast" ? [...BLAST_TYPES] : types.split(",").map(t => t.trim()).filter(Boolean),
+        custom: { enabled: true, formula: expandFormula(formula) },
+        scaling: { mode: "", number: null, formula: "" }
+    };
+}
+
+/** «minute 10», «conc minute 1», «inst» → длительность действия. */
+function parseDuration(text = "inst") {
+    const concentration = /^conc\b/.test(text);
+    const [units = "inst", value = ""] = text.replace(/^conc\s*/, "").split(/\s+/);
+    return { value, units: units === "special" ? "spec" : units, concentration, special: "", override: false };
+}
+
+function parseRange(text) {
+    if (!text) return { units: "", special: "", override: false };
+    if (/^\d+$/.test(text)) return { value: text, units: "ft", special: "", override: false };
+    return { units: text === "special" ? "spec" : text, special: "", override: false };
+}
+
+/** «1 creature», «self» и область «cone 30», «line 120 5», «cylinder 15 15». */
+function parseTarget(target = "", area = "") {
+    const [count = "", type = ""] = /^\d/.test(target) ? target.split(/\s+/) : ["", target];
+    const [tplType = "", size = "", second = ""] = area.split(/\s+/);
+    return {
+        template: {
+            count: "", contiguous: false, type: tplType, size,
+            width: tplType === "line" ? second : "", height: tplType === "cylinder" ? second : "", units: "ft"
+        },
+        affects: { count, type, choice: false, special: "" },
+        prompt: Boolean(tplType),
+        override: false
+    };
+}
+
+/** Разбирает блок ```action: строки «ключ: значение». */
+function parseActionBlock(block, where) {
+    const spec = {};
+    for (const raw of block.lines) {
+        const line = raw.trim();
+        if (!line || line.startsWith("#")) continue;
+        const m = line.match(/^([a-z]+):\s*(.*)$/);
+        if (!m) warn(`${where}: строка действия не распознана «${line}»`);
+        else spec[m[1]] = m[2].trim();
+    }
+    if (!spec.name) warn(`${where}: у действия нет name`);
+    if (!["attack", "save", "damage", "heal", "utility"].includes(spec.type)) {
+        warn(`${where}: неизвестный type «${spec.type}» — будет utility`);
+        spec.type = "utility";
+    }
+    return spec;
+}
+
+function activityDoc(spec, _id, sort) {
+    const [activation = "", activationValue = null] = (spec.activation ?? "action").split(/\s+/);
+    const cost = Number(spec.cost) || 0;
+    const doc = {
+        _id, type: spec.type, name: spec.name ?? "", img: "", sort,
+        activation: {
+            type: activation === "none" ? "" : activation,
+            value: activationValue ? Number(activationValue) : null,
+            condition: spec.condition ?? "", override: false
+        },
+        consumption: {
+            targets: cost > 0
+                ? [{ type: "attribute", target: SPELL_POINTS, value: String(cost), scaling: { mode: "", formula: "" } }]
+                : [],
+            scaling: { allowed: false, max: "" },
+            spellSlot: false
+        },
+        description: { chatFlavor: spec.flavor ?? "" },
+        duration: parseDuration(spec.duration),
+        effects: [],
+        range: parseRange(spec.range),
+        target: parseTarget(spec.target, spec.area),
+        uses: { spent: 0, recovery: [], max: "" },
+        visibility: {
+            level: { min: null, max: null },
+            requireAttunement: false, requireIdentification: false, requireMagic: false, identifier: ""
+        },
+        flags: {}
+    };
+    const parts = spec.damage ? [damagePart(spec.damage)] : [];
+
+    switch (spec.type) {
+        case "attack":
+            // Атака сферы = БМ (добавляет dnd5e для особенностей) + модификатор ключевой характеристики
+            doc.attack = {
+                ability: "none", bonus: "@spheres.mod", critical: { threshold: null }, flat: false,
+                type: { value: spec.attack === "melee" ? "melee" : "ranged", classification: "spell" }
+            };
+            doc.damage = { critical: { bonus: "" }, includeBase: false, parts };
+            break;
+        case "save":
+            doc.save = {
+                ability: (spec.save ?? "dex").split(",").map(s => s.trim()),
+                dc: { calculation: "", formula: spec.dc ?? "@spheres.dc" }
+            };
+            // Заряд с итоговой стоимостью от 1 оч.: успешный спасбросок лишь вдвое уменьшает урон (книга, стр. 117)
+            doc.damage = {
+                onSave: (/^blast/.test(spec.damage ?? "") && (cost >= 1)) ? "half"
+                    : spec.onsave ?? (parts.length ? "half" : "none"),
+                parts
+            };
+            break;
+        case "damage":
+            doc.damage = { critical: { allow: false, bonus: "" }, parts };
+            break;
+        case "heal":
+            doc.healing = damagePart(`${spec.heal ?? "0"} | ${spec.healtype ?? "healing"}`);
+            break;
+        default:
+            doc.roll = { formula: spec.roll ?? "", name: "", prompt: false, visible: Boolean(spec.roll) };
+    }
+    return doc;
+}
+
+const AUGMENT_RE = /^\*\*Подпитка \((\d+) оч\.\)(?:\s*\[([^\]]+)\])?:\*\*\s*(.*)$/;
+
+/** Обычный текст подпитки для подсказки в чате: без разметки, ссылки — названиями. */
+function plainText(text, ctx) {
+    return text
+        .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, ref, label) => {
+            const [sphere, id] = ref.includes(":") ? ref.split(":") : [ctx.item.sphere, ref];
+            return label ?? ctx.index.get(`${sphere}:${id || sphere}`)?.name ?? SPHERES[sphere]?.ru ?? id;
+        })
+        .replace(/\*+/g, "");
+}
+
+/** Короткое имя подпитки: первая фраза текста. */
+function augmentName(cost, label, text) {
+    const head = `Подпитка (${cost} оч.)${label ? `: ${label}` : ""}`;
+    if (label) return head;
+    let short = text.split(/[.;:—]/)[0].trim();
+    if (short.length > 48) short = short.slice(0, 46).replace(/\s+\S*$/, "") + "…";
+    return `${head}: ${short}`;
+}
+
+/**
+ * Действия элемента: явно описанные в блоках ```action плюс по одному действию на каждую
+ * «**Подпитка (N оч.):**» — оно списывает N очков заклинаний (отключается полем `augments: нет`).
+ */
+function buildActivities(item, ctx) {
+    const where = `${rel(item.file)}:${item.line} «${item.name}»`;
+    const specs = [];
+    for (const block of item.actions) {
+        const spec = parseActionBlock(block, `${rel(item.file)}:${block.line}`);
+        specs.push(spec);
+        if (spec.variant === "blast") {
+            // Тот же заряд с подпиткой (1 оч.): больше урона, успешный спасбросок — половина урона
+            specs.push({
+                ...spec,
+                name: `${spec.name}: с подпиткой`,
+                cost: String((Number(spec.cost) || 0) + 1),
+                damage: spec.damage?.replace(/^blast(?=\s|\|)/, "blast+"),
+                onsave: spec.type === "save" ? "half" : spec.onsave
+            });
+        }
+    }
+    // `augment: 2` в блоке действия — оно уже покрывает вторую подпитку элемента, отдельное не нужно
+    const covered = new Set(specs.flatMap(s => (s.augment ?? "").split(",").map(n => Number(n.trim())).filter(Boolean)));
+    if (item.meta.augments !== "нет") {
+        let n = 0;
+        for (const line of item.body) {
+            const m = line.trim().match(AUGMENT_RE);
+            if (!m || covered.has(++n)) continue;
+            const [, cost, label, text] = m;
+            const flavor = plainText(text, ctx);
+            specs.push({ name: augmentName(cost, label, flavor), type: "utility", activation: "special", cost, flavor });
+        }
+    }
+    if (specs.length > 20) warn(`${where}: ${specs.length} действий — проверьте, не слишком ли много`);
+
+    const activities = {};
+    specs.forEach((spec, i) => {
+        const id = stableId("activity", item.sphere, item.meta.id ?? item.sphere, String(i));
+        activities[id] = activityDoc(spec, id, (i + 1) * 100000);
+    });
+    return activities;
+}
+
+/* -------------------------------------------- */
 /*  Документы Foundry                           */
 /* -------------------------------------------- */
 
@@ -201,10 +424,10 @@ function itemDoc(item, ctx) {
         name: item.fullName,
         type: "feat",
         _id: item._id,
-        img: meta.img ?? DEFAULT_IMG,
+        img: meta.img ?? SPHERES[item.sphere]?.img ?? DEFAULT_IMG,
         folder: item.folderId,
         system: {
-            activities: {},
+            activities: buildActivities(item, { ...ctx, item }),
             uses: { spent: 0, recovery: [], max: "" },
             advancement: {},
             description: { value: toHtml(item.body, { ...ctx, item }), chat: "" },

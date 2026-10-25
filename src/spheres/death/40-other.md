@@ -5,12 +5,28 @@ id: corpse-bomb
 en: Corpse Bomb
 page: 96
 
+```action
+name: Трупная бомба
+type: save
+range: 30
+area: sphere 20
+save: dex
+onsave: none
+```
+
 Вы можете нанести любой свой призрачный удар по трупу, который можно оживить как скелета или зомби, либо по телесной нежити под вашим контролем. Цель взрывается в радиусе 20 футов, и все существа в этой области подвергаются действию выбранного призрачного удара; если призрачный удар не предусматривает спасброска, существа в области могут совершить спасбросок Ловкости, чтобы избежать его эффектов. Труп или нежить рассыпается и уничтожается; его нельзя оживить или выбрать целью другой трупной бомбы.
 
 ## Обработка трупа
 id: corpse-manipulation
 en: Corpse Manipulation
 page: 96
+
+```action
+name: Обработка трупа
+type: utility
+range: touch
+target: 1 object
+```
 
 **Время сотворения:** 1 действие
 
@@ -38,6 +54,16 @@ id: dark-sacrifice
 en: Dark Sacrifice
 page: 97
 
+```action
+name: Тёмное жертвоприношение
+type: utility
+activation: reaction
+condition: Урон опустил бы ваши хиты до 0
+cost: 1
+range: 30
+target: 1 creature
+```
+
 **Время сотворения:** 1 реакция
 
 **Дистанция:** 30 футов
@@ -54,6 +80,15 @@ page: 97
 id: gravetongue
 en: Gravetongue
 page: 97
+
+```action
+name: Язык могил
+type: utility
+cost: 1
+range: 30
+target: 1 creature
+duration: minute 10
+```
 
 **Время сотворения:** 1 действие
 
@@ -94,6 +129,14 @@ page: 97
 id: necrotic-senses
 en: Necrotic Senses
 page: 97
+
+```action
+name: Некротические чувства
+type: utility
+range: 120
+target: 1 creature
+duration: conc minute 10
+```
 
 **Время сотворения:** 1 действие
 

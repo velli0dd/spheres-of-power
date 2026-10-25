@@ -2,10 +2,99 @@
   "name": "Животворящий (тип заряда)",
   "type": "feat",
   "_id": "RNAOIDjXeiZGnt3s",
-  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
   "folder": "d7c8jOQ3WUrY7kGq",
   "system": {
-    "activities": {},
+    "activities": {
+      "NhNn6CANS7ZsIhU5": {
+        "_id": "NhNn6CANS7ZsIhU5",
+        "type": "utility",
+        "name": "Подпитка (1 оч.): нежить, получившая урон, должна преуспеть в…",
+        "img": "",
+        "sort": 100000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "spheres.spellPoints.value",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": "нежить, получившая урон, должна преуспеть в спасброске Мудрости, иначе становится изгнанной до начала вашего следующего хода. Изгнанное существо должно тратить свои ходы на попытки уйти от вас как можно дальше и не может добровольно перемещаться в пространство в пределах 30 футов от вас. Оно также не может совершать реакции. В качестве действия оно может совершать только Рывок или пытаться освободиться от эффекта, мешающего ему перемещаться. Если двигаться некуда, существо может совершить действие Уклонение."
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "flags": {},
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
     "uses": {
       "spent": 0,
       "recovery": [],

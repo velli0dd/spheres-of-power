@@ -17,6 +17,14 @@ id: energy-weapon
 en: Energy Weapon
 page: 119
 
+```action
+name: Энергетическое оружие
+type: utility
+activation: bonus
+range: self
+duration: conc minute 1
+```
+
 **Время сотворения:** 1 бонусное действие
 
 **Дистанция:** на себя
